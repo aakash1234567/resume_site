@@ -4,7 +4,7 @@
       <svg id="frame" width="100%" height="100%" viewBox="0 0 736 866" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M309.5 59C309.5 68.753 304.34 77.6171 295.93 84.0589C287.519 90.5011 275.878 94.5 263 94.5C250.122 94.5 238.481 90.5011 230.07 84.0589C221.66 77.6171 216.5 68.753 216.5 59C216.5 49.247 221.66 40.3829 230.07 33.9411C238.481 27.4989 250.122 23.5 263 23.5C275.878 23.5 287.519 27.4989 295.93 33.9411C304.34 40.3829 309.5 49.247 309.5 59Z" fill="#FFC1DF" stroke="#0B0A0A"/>
       <rect x="52" y="59" width="629" height="752" rx="16" fill="#331B32"/>
-      <image id="pic" x="86" y="88" width="564" height="694" href="../assets/logo.png"/>
+      <image id="pic" x="86" y="88" width="564" height="694" href="../assets/pic.jpeg"/>
       <rect x="134.038" y="5" width="55" height="184" transform="rotate(46.7581 134.038 5)" fill="#C4C4C4" fill-opacity="0.74"/>
       <rect x="698.038" y="699" width="55" height="184" transform="rotate(46.7581 698.038 699)" fill="#C4C4C4" fill-opacity="0.74"/>
       <path d="M309.5 19.5C309.5 24.8037 308.121 29.5819 305.918 33.0187C303.711 36.4611 300.723 38.5 297.5 38.5C294.277 38.5 291.289 36.4611 289.082 33.0187C286.879 29.5819 285.5 24.8037 285.5 19.5C285.5 14.1963 286.879 9.41809 289.082 5.98125C291.289 2.5389 294.277 0.5 297.5 0.5C300.723 0.5 303.711 2.5389 305.918 5.98125C308.121 9.41809 309.5 14.1963 309.5 19.5Z" fill="#FFC1DF" stroke="black"/>
@@ -42,7 +42,7 @@ export default {
   }
   .home{
     position: absolute;
-    padding-left: 7em;
+    padding-left: 6em;
     height: 100%;
     width:100%;
     /* border: 2px solid green; */

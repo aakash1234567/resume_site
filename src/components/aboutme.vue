@@ -3,93 +3,81 @@
     <br>
     <br>
     <div class="has-animation animation-ltr" data-delay="10">
-      <p class=""><b>Profile </b></p>
-      <p>A fast implementor with knowledge of Full-Stack Web development, Image and Video
+      <p class="head"><b>Profile </b></p>
+      <p class="content">A fast implementor with knowledge of Full-Stack Web development, Image and Video
         processing, Proteus. MBTI Profile – ENFJ.
         </p>
     </div>
-    <div class="has-animation animation-ltr" data-delay="10">
-      <table>
-        <thead>
-          <th><b>EDUCATION</b></th>
-          <th> <b>INTERNSHIP</b> </th>
-        </thead>
-        <tbody>
-          <tr>
-            <td>
-              <div class="">
-                <p>Rajasthan Technical University,Kota</p>
-                <p>2017-21</p>
-                <p>B. Tech (ECE) </p>
-                <p>Board/University:RTU</p>
-                <p>CGPA: 8.5</p>
-              </div>
-              <div class="">
-                <p>St. Paul’s Sr. Sec. School, Kota(Raj.)</p>
-                <p>2017 </p>
-                <p>XII (Science/Math) </p>
-                <p>Board: CBSE </p>
-                <p>%: 88.6</p>
-              </div>
-              <div class="">
-                <p>St. Paul’s Sr. Sec. School, Kota(Raj.)</p>
-                <p>2015 </p>
-                <p>X</p>
-                <p>Board: CBSE </p>
-                <p>CGPA: 9.2</p>
-              </div>
-            </td>
-            <td>
-              <div class="">
-                <p>eYantra IIT Bombay – Research Intern </p>
-                <p>DATE 8 May – 27 June ,2020</p>
-                <p>Research Intern - Email Automation </p>
-                <p>Developed a desktop app with Vue-electron and Django framework for mailing
-                services and semi-automating their time taking activities.
-                </p>
-              </div>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+    <div class="has-animation animation-rtl fulltab" data-delay="1000" >
+      <div class="blk content" style="border:2px solid black">
+        <p class="head" ><b>Education</b></p>
+        <table class="blk content">
+          <thead>
+            <th><b> School/University:</b></th>
+            <th><b>Rajasthan Technical University,Kota</b></th>
+            <th><b> St. Paul’s Sr. Sec. School, Kota(Raj.)</b></th>
+          </thead>
+          <tbody>
+            <tr>
+              <td><b>Year:</b></td>
+              <td>2017-21</td>
+              <td>2017</td>
+              <td>2015</td>
+            </tr>
+            <tr>
+              <td><b>Class:</b> </td>
+              <td>B. Tech (ECE) </td>
+              <td>XII (Science/Math) </td>
+              <td>X</td>
+            </tr>
+            <tr>
+              <td><b>Board:</b> </td>
+              <td>RTU</td>
+              <td>CBSE </td>
+              <td>CBSE </td>
+            </tr>
+            <tr>
+              <td><b>%/CGPA:</b> </td>
+              <td>8.5</td>
+              <td>88.6</td>
+              <td>9.2</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="blk content" style="border:2px solid black">
+        <p class="head"> <b>Internship</b> </p>
+            <p> <b>eYantra IIT Bombay – Research Intern</b>  </p>
+            <p>DATE 8 May – 27 June ,2020</p>
+            <p>Research Intern - Email Automation </p>
+            <p>Developed a desktop app with Vue-electron and Django framework for mailing
+            services and semi-automating their time taking activities.
+            </p>
+      </div>
     </div>
+
     <div class="has-animation animation-ltr" data-delay="10">
-      <p><b>ACHIEVEMENTS AND RESPONSIBILITIES</b> </p>
-      <p>e-Yantra Robotics competition, IIT Bombay DATE 15 Oct,2019 – 5 July,2020
-          [3rd position ]
-          • MJF Code 19 Hackathon DATE 10 April – 13 April,2020
-          The entry is recognized to be amongst the Top 250 entries submitted during the
-          #MJFCODE19 Hackathon.
-          • IoT challenge Exhibition, Runner-up DATE 28 Feb – 1 March,2020
-          • Robowar,1st [ IGNUS’19, IIT Jodhpur]
-          • Rajya Puraskar, Scouts DATE 28 Feb – 1 March,2020
+      <p class="head"><b>ACHIEVEMENTS AND RESPONSIBILITIES</b> </p>
+      <ul class="content">
+        <li>e-Yantra Robotics competition, IIT Bombay DATE 15 Oct,2019 – 5 July,2020
+            [3rd position ]</li>
+        <li>MJF Code 19 Hackathon DATE 10 April – 13 April,2020 <br>
+        The entry is recognized to be amongst the Top 250 entries submitted during the
+        #MJFCODE19 Hackathon.</li>
+        <li>IoT challenge Exhibition, Runner-up DATE 28 Feb – 1 March,2020</li>
+        <li>Robowar,1st [ IGNUS’19, IIT Jodhpur]</li>
+        <li>Rajya Puraskar, Scouts DATE 28 Feb – 1 March,2020
           The award was provided by governor of Rajasthan for outstanding performance
-          in scouts.
-          • Robotics Club [Mentor, Active Member] DATE June 2018 – Present
-          • Developers Students Club [Core Team Member] DATE Sept. 2020 – Present
-          • Jr. Project Technical Assistant, e-Yantra, IIT Bombay DATE August 2020 – Present
-          • Campus Ambassador, e-Yantra, IIT Bombay DATE August 2020 – Present
-          </p>
+          in scouts.</li>
+        <li>Robotics Club [Mentor, Active Member] DATE June 2018 – Present</li>
+        <li>Developers Students Club [Core Team Member] DATE Sept. 2020 – Present</li>
+        <li>Jr. Project Technical Assistant, e-Yantra, IIT Bombay DATE August 2020 – Present</li>
+        <li>Campus Ambassador, e-Yantra, IIT Bombay DATE August 2020 – Present</li>
+      </ul>
     </div>
-    <div class="has-animation animation-ltr" data-delay="10">
+    <!-- <div class="has-animation animation-ltr" data-delay="10">
       <p class="bigger">Reveal Animation </p>
-    </div>
-
-
-
-    <div class="has-animation animation-rtl" data-delay="1000">
-      <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-
-    <div class="has-animation animation-ltr" data-delay="1500">
-      <p class="text txt-center">V2 <a href="http://codepen.io/antho-fsy/pen/gWjJBQ">here</a> <br>
-    Scroll Reveal Animation
-      </p>
-    </div>
-
-    <div class="has-animation animation-rtl" data-delay="2000">
-      <img src="https://images.prismic.io/figaroimmo/943be1d1-6e3a-4c59-a5f1-97ce8b6ea147_lyon-confinement.jpg?auto=compress,format&rect=0,0,1000,667&w=720&h=480" width="600" />
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -245,282 +233,42 @@ $black: #202020;
 }
 
 </style>
-<style media="screen" scoped>
 
-/* ================ The Timeline ================ */
-
-.timeline {
-position: relative;
-width: 660px;
-margin: 0 auto;
-margin-top: 20px;
-padding: 1em 0;
-list-style-type: none;
-}
-
-.timeline:before {
-position: absolute;
-left: 50%;
-top: 0;
-content: ' ';
-display: block;
-width: 6px;
-height: 100%;
-margin-left: -3px;
-background: rgb(80,80,80);
-background: -moz-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(100%,rgba(125,185,232,1)));
-background: -webkit-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
-background: -o-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
-background: -ms-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
-background: linear-gradient(to bottom, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
-
-z-index: 5;
-}
-
-.timeline li {
-padding: 1em 0;
-}
-
-.timeline li:after {
-content: "";
-display: block;
-height: 0;
-clear: both;
-visibility: hidden;
-}
-
-.direction-l {
-position: relative;
-width: 300px;
-float: left;
-text-align: right;
-}
-
-.direction-r {
-position: relative;
-width: 300px;
-float: right;
-}
-
-.flag-wrapper {
-position: relative;
-display: inline-block;
-
-text-align: center;
-}
-
-.flag {
-position: relative;
-display: inline;
-background: rgb(248,248,248);
-padding: 6px 10px;
-border-radius: 5px;
-
-font-weight: 600;
-text-align: left;
-}
-
-.direction-l .flag {
--webkit-box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
--moz-box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
-box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
-}
-
-.direction-r .flag {
--webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
--moz-box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
-box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
-}
-
-.direction-l .flag:before,
-.direction-r .flag:before {
-position: absolute;
-top: 50%;
-right: -40px;
-content: ' ';
-display: block;
-width: 12px;
-height: 12px;
-margin-top: -10px;
-background: #fff;
-border-radius: 10px;
-border: 4px solid rgb(255,80,80);
-z-index: 10;
-}
-
-.direction-r .flag:before {
-left: -40px;
-}
-
-.direction-l .flag:after {
-content: "";
-position: absolute;
-left: 100%;
-top: 50%;
-height: 0;
-width: 0;
-margin-top: -8px;
-border: solid transparent;
-border-left-color: rgb(248,248,248);
-border-width: 8px;
-pointer-events: none;
-}
-
-.direction-r .flag:after {
-content: "";
-position: absolute;
-right: 100%;
-top: 50%;
-height: 0;
-width: 0;
-margin-top: -8px;
-border: solid transparent;
-border-right-color: rgb(248,248,248);
-border-width: 8px;
-pointer-events: none;
-}
-
-.time-wrapper {
-display: inline;
-
-line-height: 1em;
-font-size: 0.66666em;
-color: rgb(250,80,80);
-vertical-align: middle;
-}
-
-.direction-l .time-wrapper {
-float: left;
-}
-
-.direction-r .time-wrapper {
-float: right;
-}
-
-.time {
-display: inline-block;
-padding: 4px 6px;
-background: rgb(248,248,248);
-}
-
-.desc {
-margin: 1em 0.75em 0 0;
-
-font-size: 0.77777em;
-font-style: italic;
-line-height: 1.5em;
-}
-
-.direction-r .desc {
-margin: 1em 0 0 0.75em;
-}
-
-/* ================ Timeline Media Queries ================ */
-
-@media screen and (max-width: 660px) {
-
-.timeline {
-width: 100%;
-padding: 4em 0 1em 0;
-}
-
-.timeline li {
-padding: 2em 0;
-}
-
-.direction-l,
-.direction-r {
-float: none;
-width: 100%;
-
-text-align: center;
-}
-
-.flag-wrapper {
-text-align: center;
-}
-
-.flag {
-background: rgb(255,255,255);
-z-index: 15;
-}
-
-.direction-l .flag:before,
-.direction-r .flag:before {
-position: absolute;
-top: -30px;
-left: 50%;
-content: ' ';
-display: block;
-width: 12px;
-height: 12px;
-margin-left: -9px;
-background: #fff;
-border-radius: 10px;
-border: 4px solid rgb(255,80,80);
-z-index: 10;
-}
-
-.direction-l .flag:after,
-.direction-r .flag:after {
-content: "";
-position: absolute;
-left: 50%;
-top: -8px;
-height: 0;
-width: 0;
-margin-left: -8px;
-border: solid transparent;
-border-bottom-color: rgb(255,255,255);
-border-width: 8px;
-pointer-events: none;
-}
-
-.time-wrapper {
-display: block;
-position: relative;
-margin: 4px 0 0 0;
-z-index: 14;
-}
-
-.direction-l .time-wrapper {
-float: none;
-}
-
-.direction-r .time-wrapper {
-float: none;
-}
-
-.desc {
-position: relative;
-margin: 1em 0 0 0;
-padding: 1em;
-background: rgb(245,245,245);
--webkit-box-shadow: 0 0 1px rgba(0,0,0,0.20);
--moz-box-shadow: 0 0 1px rgba(0,0,0,0.20);
-box-shadow: 0 0 1px rgba(0,0,0,0.20);
-
-z-index: 15;
-}
-
-.direction-l .desc,
-.direction-r .desc {
-position: relative;
-margin: 1em 1em 0 1em;
-padding: 1em;
-
-z-index: 15;
-}
-
-}
-
-@media screen and (min-width: 400px ?? max-width: 660px) {
-
-.direction-l .desc,
-.direction-r .desc {
-margin: 1em 4em 0 4em;
-}
-
-}
+<style media="screen">
+  .head{
+    margin: 0;
+    font-size: 5vmin;
+    font-weight: 800;
+    padding-right: 2em;
+    color: black;
+    position: relative;
+  }
+  .blk{
+    background-color: transparent;
+  }
+  .content{
+    margin: 0;
+    font-size: 3vmin;
+    font-weight: 200;
+    padding: .7em;
+    color: black;
+    position: relative;
+    height:80%;
+  }
+  #brdr{
+    border-collapse:collapse;
+  }
+  .fulltab{
+    height: 55vmin;
+    width:145vmin;
+    overflow:auto;
+    resize:both;
+    background:transparent;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+     gap: .2em;
+  }
+  th td{
+    border:2px solid black
+  }
 </style>
