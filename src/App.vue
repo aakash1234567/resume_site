@@ -2,6 +2,7 @@
   <div id="app">
     <!-- <div id="nav"> -->
       <navbar />
+      <spider />
       <!-- <router-link to="/"></router-link> -->
       <!-- <router-link to="/about">About</router-link> -->
     <!-- </div> -->
@@ -12,10 +13,12 @@
 // @ is an alias to /src
 // import HelloWorld from '@/components/HelloWorld.vue'
 import navbar from '@/components/navbar.vue'
+import spider from '@/components/spider.vue'
 export default {
   name: 'app',
   components: {
-    navbar
+    navbar,
+    spider
   },
 }
 </script>
