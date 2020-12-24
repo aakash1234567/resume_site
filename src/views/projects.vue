@@ -4,11 +4,6 @@
 <h1>hiidokadowjd adjakdpoak;,oaksdpok</h1>
 <h1>hiidokadowjd adjakdpoak;,oaksdpok</h1>
 <h1>hiidokadowjd adjakdpoak;,oaksdpok</h1>
-<h1>hiidokadowjd adjakdpoak;,oaksdpok</h1>
-<h1>hiidokadowjd adjakdpoak;,oaksdpok</h1>
-<h1>hiidokadowjd adjakdpoak;,oaksdpok</h1>
-<h1>hiidokadowjd adjakdpoak;,oaksdpok</h1>
-<h1>hiidokadowjd adjakdpoak;,oaksdpok</h1>
   </div>
 </template>
 
