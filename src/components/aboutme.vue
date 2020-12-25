@@ -1,5 +1,5 @@
 <template lang="html">
-  <div >
+  <div class="aboutme">
     <br>
     <br>
     <div class="has-animation animation-ltr" data-delay="10">
@@ -15,14 +15,14 @@
           <thead>
             <th><b> School/University:</b></th>
             <th><b>Rajasthan Technical University,Kota</b></th>
-            <th><b> St. Paul’s Sr. Sec. School, Kota(Raj.)</b></th>
+            <th style="border-right:none"><b> St. Paul’s Sr. Sec. School, Kota(Raj.)</b></th>
           </thead>
           <tbody>
             <tr>
               <td><b>Year:</b></td>
               <td>2017-21</td>
               <td>2017</td>
-              <td>2015</td>
+              <td style="border-top:2px solid black" >2015</td>
             </tr>
             <tr>
               <td><b>Class:</b> </td>
@@ -58,7 +58,7 @@
 
     <div class="has-animation animation-ltr" data-delay="10">
       <p class="head"><b>ACHIEVEMENTS AND RESPONSIBILITIES</b> </p>
-      <ul class="content">
+      <ul class="content" style="padding-left:4%">
         <li>e-Yantra Robotics competition, IIT Bombay DATE 15 Oct,2019 – 5 July,2020
             [3rd position ]</li>
         <li>MJF Code 19 Hackathon DATE 10 April – 13 April,2020 <br>
@@ -234,24 +234,36 @@ $black: #202020;
 
 </style>
 
-<style media="screen">
+<style lang="css">
+  td{
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    padding: 7px;
+  }
+  th{
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+  }
   .head{
     margin: 0;
     font-size: 5vmin;
     font-weight: 800;
     padding-right: 2em;
-    color: black;
+    color: white;
     position: relative;
   }
   .blk{
     background-color: transparent;
+    flex: 25%;
+    padding: 20px;
   }
   .content{
     margin: 0;
     font-size: 3vmin;
-    font-weight: 200;
+    font-weight: 650;
     padding: .7em;
-    color: black;
+    color: #1c1d1f;
     position: relative;
     height:80%;
   }
@@ -259,16 +271,37 @@ $black: #202020;
     border-collapse:collapse;
   }
   .fulltab{
-    height: 55vmin;
-    width:145vmin;
+    height: fit-content;
+    /* width:145vmin; */
     overflow:auto;
     resize:both;
     background:transparent;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
      gap: .2em;
+     width: calc(100% - 0);
+     display: flex;
+     flex-wrap: wrap;
   }
-  th td{
-    border:2px solid black
+  .aboutme{
+    border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #37b998;
+  background-color: #3884e8;
   }
+
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .blk {
+    flex: 50%;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .fulltab {
+    flex-direction: column;
+  }
+}
 </style>

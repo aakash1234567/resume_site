@@ -5,7 +5,7 @@
 <header class="main-head">
       <nav class="head-nav">
         <ul class="menu">
-          <li class="menu__item menu__item--active" data-background="9f32b8">
+          <li class="menu__item menu__item--active" data-background="1a5199">
             <router-link to="/">
               <svg class="person">
                 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#person"></use>
@@ -17,7 +17,7 @@
                 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#video-player"></use>
               </svg><span>Projects</span></router-link>
           </li>
-          <li class="menu__item menu__item--active" data-background="37b983">
+          <li class="menu__item menu__item--active" data-background="9f32b8">
             <router-link to="/blog" >
               <svg class="speech-bubble " >
                 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#speech-bubble"></use>

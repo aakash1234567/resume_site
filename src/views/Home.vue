@@ -38,7 +38,7 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
   body{
-    background-color: #9f32b8;
+    background-color: #1a5199;
   }
   .home{
     position: absolute;
