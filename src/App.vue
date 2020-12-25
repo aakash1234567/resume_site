@@ -3,6 +3,7 @@
     <!-- <div id="nav"> -->
       <navbar />
       <spider />
+      <robot />
       <!-- <router-link to="/"></router-link> -->
       <!-- <router-link to="/about">About</router-link> -->
     <!-- </div> -->
@@ -14,11 +15,13 @@
 // import HelloWorld from '@/components/HelloWorld.vue'
 import navbar from '@/components/navbar.vue'
 import spider from '@/components/spider.vue'
+import robot from '@/components/robot.vue'
 export default {
   name: 'app',
   components: {
     navbar,
-    spider
+    spider,
+    robot
   },
 }
 </script>

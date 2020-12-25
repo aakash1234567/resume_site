@@ -42,7 +42,36 @@ export default {
   components: {
     // HelloWorld
   },
+  methods: {
+    movespider() {
+      var temp = document.getElementsByClassName('spider')
+      var degrees = 0;
+      // const scaleKeyframes = [
+      //   {transform: 'scale(1)'},
+      //   {transform: 'scale(2)'}
+      // ]
+      // const scaleTiming = {
+      //   duration: 2100,
+      //   iterations: Infinity,
+      //   direction: 'alternate'
+      // }
+
+      const rotateKeyframes = [
+        {transform: 'rotateX(0deg)'},
+        {transform: 'rotateX(35deg)'},
+        // {transformOrigin: '50% 50%'}
+      ]
+      const rotateTiming = {
+        duration: 3000,
+        iterations: Infinity,
+        direction: 'alternate'
+      }
+      // temp[0].animate(scaleKeyframes, scaleTiming);
+      var rot = temp[0].animate(rotateKeyframes, rotateTiming);
+    }
+  },
   mounted() {
+    this.movespider()
     const svg = document.querySelector('.peas');
 
     let mouseX = 0;
