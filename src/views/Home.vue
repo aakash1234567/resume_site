@@ -35,7 +35,7 @@ export default {
   },
 }
 </script>
-<style>
+<style media="screen">
 @import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
   body{
     background-color: #1a5199;
@@ -56,8 +56,30 @@ export default {
     margin-top: 2%;
 
   }
+
+  @media screen and (min-width: 700px) {
+    h1 {
+      font-size: 3.3vmin;
+    }
+  }
+  @media screen and (min-width: 850px) {
+    h1 {
+      font-size: 4vmin;
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    h1 {
+      font-size: 4.7vmin;
+    }
+  }
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 700px) {
+    h1 {
+      font-size: 2.7vmin;
+    }
+  }
   .welcomemsg h1{
-    font-size: 4.7vmin;
+    /* font-size: 4.7vmin; */
     padding-right: .05em;
     margin:0;
     font-family: 'Changa', sans-serif;
@@ -71,9 +93,9 @@ export default {
   width: fit-content;
   }
   .welcomemsg h1:hover{
-    -webkit-transform: scaleY(0.8);
-        -ms-transform: scaleY(0.8);
-        transform: scaleY(0.8);
+    -webkit-transform: scaleY(0.7);
+        -ms-transform: scaleY(0.7);
+        transform: scaleY(0.7);
   }
   #elmsg{
     padding:0;

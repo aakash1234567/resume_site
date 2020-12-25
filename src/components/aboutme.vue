@@ -56,7 +56,7 @@
       </div>
     </div>
 
-    <div class="has-animation animation-ltr" data-delay="10">
+    <div class="has-animation animation-ltr" data-delay="10" style="padding-top:3%">
       <p class="head"><b>ACHIEVEMENTS AND RESPONSIBILITIES</b> </p>
       <ul class="content" style="padding-left:4%">
         <li>e-Yantra Robotics competition, IIT Bombay DATE 15 Oct,2019 – 5 July,2020
