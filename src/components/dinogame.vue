@@ -1,7 +1,9 @@
 <template lang="html">
   <div class="">
     <h1>hiiii</h1>
-    <canvas id="canvas" :width="width" :height="height"></canvas>
+    <canvas id="canvas" :width="width" :height="height">
+      <h1>hiii</h1>
+    </canvas>
   </div>
 </template>
 

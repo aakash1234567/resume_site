@@ -1,9 +1,17 @@
 <template>
   <div class="home">
-<h1>hiidokadowjd adjakdpoak;,oaksdpok</h1>
-<h1>hiidokadowjd adjakdpoak;,oaksdpok</h1>
-<h1>hiidokadowjd adjakdpoak;,oaksdpok</h1>
-<h1>hiidokadowjd adjakdpoak;,oaksdpok</h1>
+    <div class="proj">
+
+    </div>
+    <div class="proj">
+
+    </div>
+    <div class="proj">
+
+    </div>
+    <div class="proj">
+
+    </div>
 <div class="">
   <button id="myBtn">Open Modal</button>
 
@@ -13,24 +21,20 @@
     <!-- Modal content -->
     <div class="modal-content">
       <span class="close">&times;</span>
-      <dinogame />
     </div>
 
   </div>
 </div>
-
-
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 // import HelloWorld from '@/components/HelloWorld.vue'
-import dinogame from '@/components/dinogame.vue'
 export default {
   name: 'projects',
   components: {
-    dinogame
+
   },
   mounted() {
       var modal = document.getElementById("myModal");
@@ -97,5 +101,18 @@ font-weight: bold;
 color: black;
 text-decoration: none;
 cursor: pointer;
+}
+.proj{
+  height: 10em;
+  width: calc(100% - 20vmin);
+  background-color: white;
+  margin:1em;
+  position: relative !important;
+  border: lightgrey 1px solid;
+  border-radius: 0 15px 0 15px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.8);
+}
+.proj:hover{
+  box-shadow: 0 7px 10px rgba(0, 0, 0, 0.8);
 }
 </style>

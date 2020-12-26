@@ -11,7 +11,7 @@
     <!-- <span class="hand" style="background:white;position:absolute;z-index:50"> -->
       <rect class="hand" x="349.814" y="274" width="47" height="155.294" rx="23.5" fill="#9D7FF2"/>
     <!-- </span> -->
-    <rect x="38" y="359" width="182" height="157" rx="23" fill="#8C73D6"/>
+    <rect id="box" x="38" y="359" width="182" height="157" rx="23" fill="#8C73D6"/>
     <rect x="173" y="406" width="66" height="38" fill="#775EBD"/>
     <ellipse cx="53" cy="13.5" rx="15" ry="13.5" fill="#C4C4C4"/>
     <path id="eye" d="M92 204C92 218.359 82.1503 230 70 230C57.8497 230 48 218.359 48 204C48 189.641 57.8497 178 70 178C82.1503 178 92 189.641 92 204Z" fill="#090808"/>
@@ -84,6 +84,10 @@ export default {
 }
 #eye{
   /* transform-origin: 100% center; */
+  transform: rotateX(0deg);
+  animation: eye 1.7s infinite alternate ease-in-out;
+}
+#box{
   transform: rotateX(0deg);
   animation: eye 1.7s infinite alternate ease-in-out;
 }
