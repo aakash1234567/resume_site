@@ -1,6 +1,6 @@
 <template>
   <div class="spider">
-    <svg style="position:absolute;z-index:100;top:0%;right:0" height="110" width="160"  fill="none" xmlns="http://www.w3.org/2000/svg" version="1.1" class="peas" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <svg style="position:absolute;z-index:100;top:0%;right:0%" height="110" width="160"  fill="none" xmlns="http://www.w3.org/2000/svg" version="1.1" class="peas" xmlns:xlink="http://www.w3.org/1999/xlink">
     <g transform="scale(.115)" class="pea pea-1">
     <line id="Line 1" x1="316.037" y1="427.764" x2="69.0374" y2="320.764" stroke="#232323" stroke-width="30"/>
     <line id="Line 2" x1="87.3376" y1="315.531" x2="22.3376" y2="409.531" stroke="#232323" stroke-width="30"/>
@@ -192,6 +192,8 @@ export default {
   display : none;
 }
 .spider{
-  z-index: 50;
+  /* z-index: 50; */
+/* Safari */
+/* position: sticky; */
 }
 </style>

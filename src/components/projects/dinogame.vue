@@ -7,7 +7,7 @@
   </div>
 </template>
 
-<script>
+<script >
 export default {
   name: 'dinogame',
   props: [ 'width', 'height' ],
@@ -50,7 +50,7 @@ export default {
 			}
 		},
   mounted() {
-    this.drawGrid()
+    // this.drawGrid()
   }
 }
 </script>
