@@ -15,7 +15,8 @@
           <thead>
             <th><b> School/University:</b></th>
             <th><b>Rajasthan Technical University,Kota</b></th>
-            <th style="border-right:none"><b> St. Paul’s Sr. Sec. School, Kota(Raj.)</b></th>
+            <th style="border-right:none" ><b> St. Paul’s Sr. Sec. School, Kota(Raj.)</b></th>
+            <th style="border-right:2px solid black;border-left:none"></th>
           </thead>
           <tbody>
             <tr>

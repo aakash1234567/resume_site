@@ -15,10 +15,10 @@
     <line id="Line 11" y1="-15" x2="269.18" y2="-15" transform="matrix(0.988429 0.151685 0.151685 -0.988429 666 603)" stroke="#232323" stroke-width="30"/>
     <line id="Line 12" y1="-15" x2="114.285" y2="-15" transform="matrix(0.04391 0.999036 0.999036 -0.04391 932.066 643.831)" stroke="#232323" stroke-width="30"/>
     <ellipse id="Ellipse 1" cx="493.5" cy="503.5" rx="258.5" ry="183.5" fill="#232323"/>
-    <g class="mouth">
+
       <rect class="teeth"id="Rectangle 1" x="583" y="587.742" width="34" height="33" transform="rotate(-29.5 583 587.742)" fill="white"/>
       <path class="tongue" id="Vector 2" d="M493 633C493 660.845 504 662.512 504 633H493Z" stroke="white" stroke-width="39"/>
-    </g>
+
     <path id="Vector 1" d="M636 550C603.806 591.288 522.394 616 454 616" stroke="white" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
     <ellipse class="eye eye-left" id="Ellipse 3" cx="592" cy="451.5" rx="44" ry="37.5" fill="white"/>
     <ellipse class="eye eye-right" id="Ellipse 2" cx="390" cy="451.5" rx="44" ry="37.5" fill="white"/>
@@ -182,16 +182,16 @@ export default {
 
 </script>
 <style>
-.tongue{
+#root .tongue{
   display: none;
 }
-.mouth:hover + .tongue{
+#root .peas:hover .tongue{
   display : block;
 }
-.mouth:hover + .teeth{
+#root .peas:hover .teeth{
   display : none;
 }
-.spider{
+#root .spider{
   z-index: 50;
 /* Safari */
 /* position: sticky; */

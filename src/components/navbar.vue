@@ -5,7 +5,7 @@
 <header class="main-head">
       <nav class="head-nav">
         <ul class="menu">
-          <li class="menu__item menu__item--active" data-background="1a5199">
+          <li class="menu__item menu__item--active" data-background="ffffff">
             <router-link to="/">
               <svg class="person">
                 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#person"></use>
@@ -102,7 +102,7 @@ body{
           padding: {top:2vh;bottom:2vh;}
       }
   }
-  
+
   a{
       align-items: center;
       width: 100%;
