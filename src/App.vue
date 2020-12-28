@@ -39,7 +39,7 @@ export default {
       document.body.style.backgroundColor = '#e4a924';
     }
     else{
-      document.body.style.backgroundColor = '#1a5199';
+      document.body.style.backgroundColor = '#ffffff';
     }
   }
 }
