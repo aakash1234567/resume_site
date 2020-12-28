@@ -1,11 +1,10 @@
 {
   "name": "resume_site",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "gh-pages-deploy": "node gh-pages-deploy.js"
+    "build": "vue-cli-service build"
   },
   "dependencies": {
     "bootstrap": "^4.5.3",
