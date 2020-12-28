@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="">
+  <div class="contact">
     <candle />
   </div>
 </template>
@@ -14,5 +14,13 @@ export default {
 }
 </script>
 
-<style lang="css" scoped>
+<style lang="css" >
+#root .contact{
+  top:20em;
+  position: absolute;
+  padding-left: 7em;
+  min-height: 100%;
+  min-width:100%;
+  /* border: 2px solid green; */
+}
 </style>

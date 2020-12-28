@@ -41,7 +41,7 @@
 </div>
 </template>
 
-<style  lang="scss">
+<style  lang="scss" >
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
 $color-1: #1a1a1a;
@@ -102,6 +102,7 @@ body{
           padding: {top:2vh;bottom:2vh;}
       }
   }
+  
   a{
       align-items: center;
       width: 100%;
@@ -142,6 +143,7 @@ body{
   width: 83px;
   height: 100%;
   z-index: 1;
+  left:0%;
   background: #232323;
   transition: width 400ms;
   &:hover{

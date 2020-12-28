@@ -23,6 +23,25 @@ export default {
     spider,
     robot
   },
+  mounted() {
+    var string = window.location.href;
+    var pattern1 = /projects/i
+    var pattern2 = /blog/i
+    var pattern3 = /contact/i
+    console.log(string.match(pattern2))
+    if (string.match(pattern1)){
+      document.body.style.backgroundColor = '#c92142' ;
+    }
+    else if (string.match(pattern2)){
+      document.body.style.backgroundColor = "#9f32b8";
+    }
+    else if (string.match(pattern3)){
+      document.body.style.backgroundColor = '#e4a924';
+    }
+    else{
+      document.body.style.backgroundColor = '#1a5199';
+    }
+  }
 }
 </script>
 <style>

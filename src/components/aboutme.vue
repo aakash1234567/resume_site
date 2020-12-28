@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="aboutme">
+  <div class="aboutme" id="root">
     <br>
     <br>
     <div class="has-animation animation-ltr" data-delay="10">

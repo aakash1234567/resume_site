@@ -14,9 +14,25 @@
       <ellipse cx="228.5" cy="23" rx="6.5" ry="12" fill="black"/>
       <ellipse cx="297.5" cy="23" rx="6.5" ry="12" fill="black"/>
       </svg>
-    <div id="elmsg"><h1>H</h1><h1>i</h1><h1>i</h1><h1>!</h1></div>
-    <div id="elmsg"><h1>A</h1><h1>A</h1><h1>K</h1><h1>A</h1><h1>S</h1><h1>H</h1></div>
-    <div id="elmsg"><h1>K</h1><h1>H</h1><h1>A</h1><h1>N</h1><h1>D</h1><h1>E</h1><h1>L</h1><h1>W</h1><h1>A</h1><h1>L</h1></div>
+      <div class="msg" style="margin-top:1em">
+        <div class="elmsg"><h1>H</h1><h1>i</h1><h1>i</h1><h1>!</h1></div>
+        <div class="elmsg"><h1>A</h1><h1>A</h1><h1>K</h1><h1>A</h1><h1>S</h1><h1>H</h1></div>
+        <!-- <div class="elmsg"><h1>K</h1><h1>H</h1><h1>A</h1><h1>N</h1><h1>D</h1><h1>E</h1><h1>L</h1><h1>W</h1><h1>A</h1><h1>L</h1></div> -->
+      </div>
+      <div class="" style="" >
+        <a href="https://www.linkedin.com/in/aakash-khandelwal-a700ab172/" target="_blank" >
+          <img style="margin-right:.5em;margin-top:1em" align="left" alt="Aakash Khandelwal LinkedIn" width="30em" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
+        </a>
+        <a href="https://github.com/aakash1234567" target="_blank">
+          <img style="margin-right:.5em;margin-top:1em" align="left" alt="Aakash's Github" width="30em" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
+        </a>
+        <a href="https://www.codechef.com/users/aakash_20" target="_blank">
+          <img style="margin-right:.5em;margin-top:1em" align="left" alt="Aakash's Codechef" width="30em" src="https://cdn.jsdelivr.net/npm/simple-icons@3.12.1/icons/codechef.svg" />
+        </a>
+        <a href="https://www.hackerrank.com/Aakashkhandelwa1" target="_blank">
+          <img style="margin-right:.5em;margin-top:1em" align="left" alt="Aakash's HackerRank" width="30em" src="https://cdn.jsdelivr.net/npm/simple-icons@3.12.1/icons/hackerrank.svg" />
+        </a>
+      </div>
   </div>
   <div class="abt">
     <Aboutme />
@@ -37,70 +53,73 @@ export default {
 </script>
 <style media="screen">
 @import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
-  body{
-    background-color: #1a5199;
-  }
-  .home{
+#root  .home{
     position: absolute;
     padding-left: 6em;
     height: 100%;
     width:100%;
     /* border: 2px solid green; */
   }
-  .welcomemsg{
+  #root .welcomemsg{
     /* border:2px solid black; */
     /* height:15em;
     width:24em;*/
-    width: 20%;
+    width: 16%;
     float:left;
     margin-top: 2%;
 
   }
 
-  @media screen and (min-width: 700px) {
-    h1 {
+  @media screen and (min-width: 500px) {
+  #root h1 {
       font-size: 3.3vmin;
     }
   }
-  @media screen and (min-width: 850px) {
-    h1 {
+  @media screen and (min-width: 700px) {
+  #root h1 {
       font-size: 4vmin;
     }
   }
-  @media screen and (min-width: 1000px) {
-    h1 {
-      font-size: 4.7vmin;
+  @media screen and (min-width: 900px) {
+  #root h1 {
+      font-size: 5.2vmin;
     }
   }
   /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 700px) {
-    h1 {
+  @media screen and (max-width: 500px) {
+    #root h1 {
       font-size: 2.7vmin;
     }
   }
-  .welcomemsg h1{
+  #root .welcomemsg h1{
     /* font-size: 4.7vmin; */
     padding-right: .05em;
     margin:0;
     font-family: 'Changa', sans-serif;
     /* text-transform: uppercase; */
     font-weight: bold;
-
+    text-decoration-color: black;
     transition:all 0.3s ease;
     height: fit-content;
     display: inline-block;
     width: -moz-fit-content;
   width: fit-content;
   }
-  .welcomemsg h1:hover{
+  #root .msg{
+    top: 10%;
+    height: fit-content;
+    width:fit-content
+  }
+#root  .welcomemsg h1:hover{
     -webkit-transform: scaleY(0.7);
         -ms-transform: scaleY(0.7);
         transform: scaleY(0.7);
   }
-  #elmsg{
+  #root .elmsg{
     padding:0;
     margin: 0;
     height: fit-content;
+    position: relative;
   /* width: 30%; */
   }
 
@@ -114,8 +133,8 @@ export default {
     /* border: 2px solid black; */
     float:right;
     height: 100%;
-    width:70%;
-    margin-right: 10%;
+    width:77%;
+    margin-right: 3%;
   }
   #pic{
 

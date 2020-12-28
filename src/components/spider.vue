@@ -192,7 +192,7 @@ export default {
   display : none;
 }
 .spider{
-  /* z-index: 50; */
+  z-index: 50;
 /* Safari */
 /* position: sticky; */
 }

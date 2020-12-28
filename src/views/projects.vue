@@ -53,17 +53,17 @@ export default {
 }
 </script>
 <style media="screen">
-.proj{
-  height: 16em;
-  width: calc(100% - 10vmin);
+#root .proj{
+  height: fit-content;
+  max-width: calc(100% - 10vmin);
   background-color: white;
   margin:1em;
-  position: relative !important;
+  position: relative;
   border: lightgrey 1px solid;
   border-radius: 0 15px 0 15px;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.8);
 }
-.proj:hover{
+#root .proj:hover{
   box-shadow: 0 7px 10px rgba(0, 0, 0, 0.8);
 }
 </style>
