@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "gh-pages-deploy": "node gh-pages-deploy.js"
   },
   "dependencies": {
     "bootstrap": "^4.5.3",
