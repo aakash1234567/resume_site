@@ -1,77 +1,106 @@
 <template lang="html">
   <div class="homeautomation" >
-    <h1> <b>Smart Home Automation </b> </h1>
-    <p> Prepared a working model of Smart home automation which can be controlled by
-        voice, website and Android app </p>
-        <p>Designed website for IoT project </p>
-        <p>Developed our own dynamic website for IoT which is used for giving instructions and
-          controlling microcontroller from anywhere in the world.
+    <h1 class="projhead"> <b>Smart Home Automation </b> </h1>
+    <div class="projcontent">
+      <p> Prepared a working model of Smart home automation which can be controlled by
+          voice, website and Android app.Designed website for IoT project. Developed our own dynamic website for IoT which is used for giving instructions and
+            controlling microcontroller from anywhere in the world.
 
-          <!-- Button trigger modal -->
-          <button v-b-modal.modal-xl id="modbtn">Read More</button>
+            <!-- Button trigger modal -->
+            <button v-b-modal.modal-multi-2 id="modbtn">Read More</button>
 
-          <b-modal id="modal-xl" size="xl" title="Smart Home Automation">
-            <div>
-              <b-carousel
-                id="carousel-1"
-                v-model="slide"
-                :interval="4000"
-                controls
-                indicators
-                background="#ababab"
-                img-width="1024"
-                img-height="480"
-                style="text-shadow: 1px 1px 2px #333;"
-                @sliding-start="onSlideStart"
-                @sliding-end="onSlideEnd"
-              >
-                <!-- Text slides with image -->
-                <b-carousel-slide
-                  caption="First slide"
-                  text="Nulla vitae elit libero, a pharetra augue mollis interdum."
-                  img-src="https://picsum.photos/1024/480/?image=52"
-                ></b-carousel-slide>
+            <b-modal id="modal-multi-2" size="xl" title="Smart Home Automation">
+              <div>
+                <b-carousel
+                  id="carousel-1"
+                  v-model="slide"
+                  :interval="40000"
+                  controls
+                  indicators
+                  background="#ababab"
+                  img-width="1024"
+                  img-height="520"
+                  style="text-shadow: 1px 1px 2px #333;"
+                  @sliding-start="onSlideStart"
+                  @sliding-end="onSlideEnd"
+                >
+                  <!-- Text slides with image -->
+                  <b-carousel-slide
+                    caption="Working Prototype"
+                    text="Nulla vitae elit libero, a pharetra augue mollis interdum.">
+                    <template #img>
+                      <img
+                        class="d-block img-fluid w-100"
+                        width="1024"
+                        height="520"
+                        src="../../assets/homeauto/img1.jpg"
+                        alt="image slot"
+                      >
+                    </template>
+                  </b-carousel-slide>
+                  <b-carousel-slide
+                    caption="In Development"
+                    text="Nulla vitae elit libero, a pharetra augue mollis interdum.">
+                    <template #img>
+                      <img
+                        class="d-block img-fluid w-100"
+                        width="1024"
+                        height="520"
+                        src="../../assets/homeauto/img2.jpeg"
+                        alt="image slot"
+                      >
+                    </template>
+                  </b-carousel-slide>
+                  <b-carousel-slide
+                  caption="In Development"
+                  text="Nulla vitae elit libsero, a pharetra augue mollis interdum."
 
-                <!-- Slides with custom text -->
-                <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=54">
-                  <h1>Hello world!</h1>
-                </b-carousel-slide>
-
-                <!-- Slides with image only -->
-                <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=58"></b-carousel-slide>
-
-                <!-- Slides with img slot -->
-                <!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment -->
-                <b-carousel-slide>
-                  <template #img>
-                    <img
-                      class="d-block img-fluid w-100"
-                      width="1024"
-                      height="480"
-                      src="https://picsum.photos/1024/480/?image=55"
-                      alt="image slot"
                     >
-                  </template>
-                </b-carousel-slide>
+                    <template #img>
+                    <iframe src="https://www.youtube.com/embed/hwQhj5ubrYo" width="100%" height="100%"></iframe>
+                    </template>
+                  </b-carousel-slide>
+                  <b-carousel-slide
+                    caption="In Development"
+                    text="Nulla vitae elit libsero, a pharetra augue mollis interdum.">
+                    <template #img>
+                      <iframe src="https://www.youtube.com/embed/ws6J88ETLpI" width="100%" height="100%"></iframe>
+                    </template>
+                  </b-carousel-slide>
+                  <b-carousel-slide
+                    caption="In Development"
+                    text="Nulla vitae elit libero, a pharetra augue mollis interdum.">
+                    <template #img>
+                      <iframe src="https://www.youtube.com/embed/YtIqmn4KIyo" width="100%" height="100%"></iframe>
+                    </template>
+                  </b-carousel-slide>
+                  <b-carousel-slide
+                    caption="In Development"
+                    text="Nulla vitae elit libero, a pharetra augue mollis interdum.">
+                    <template #img>
+                      <iframe src="https://www.youtube.com/embed/Cymp0VE5hWo" width="100%" height="100%"></iframe>
+                    </template>
+                  </b-carousel-slide>
+                  <b-carousel-slide
+                    caption="In Development"
+                    text="Nulla vitae elit libero, a pharetra augue mollis interdum.">
+                    <template #img>
+                      <iframe src="https://www.youtube.com/embed/FoVZmt7mntk" width="100%" height="100%"></iframe>
+                    </template>
+                  </b-carousel-slide>
 
-                <!-- Slide with blank fluid image to maintain slide aspect ratio -->
-                <b-carousel-slide caption="Blank Image" img-blank img-alt="Blank image">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eros felis, tincidunt
-                    a tincidunt eget, convallis vel est. Ut pellentesque ut lacus vel interdum.
-                  </p>
-                </b-carousel-slide>
-              </b-carousel>
+                </b-carousel>
 
-              <p class="mt-4">
-                Slide #: {{ slide }}<br>
-                Sliding: {{ sliding }}
-              </p>
-              <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="mt-4">
+                  Slide #: {{ slide }}<br>
+                  Sliding: {{ sliding }}
+                </p>
+                <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-            </div>
-          </b-modal>
-          </p>
+              </div>
+            </b-modal>
+            </p>
+    </div>
   </div>
 </template>
 
@@ -104,11 +133,14 @@ export default {
   width: 100%;
   display: contents;
 }
-h1,p{
-  padding-left: 1em;
+#root .projhead{
+  margin: .4em;
+}
+#root .projcontent{
+  margin: .4em;
 }
 #root p{
-  font-size: 2vw;
+  font-size: 1.7vw;
 }
 #root #modbtn{
   height:fit-content;

@@ -2,7 +2,7 @@
   <div class="blog">
     <div class="" style="height:70vmin;width:70vmin;padding-top:5em;padding-left:40vmin;position:relative">
       <svg width="100%" height="100%" viewBox="0 0 615 659" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M224.5 90.5C224.5 139.523 180.761 179.5 126.5 179.5C72.2391 179.5 28.5 139.523 28.5 90.5C28.5 41.4773 72.2391 1.5 126.5 1.5C180.761 1.5 224.5 41.4773 224.5 90.5Z" fill="white" style="mix-blend-mode:darken"/>
+  <path d="M224.5 90.5C224.5 139.523 180.761 179.5 126.5 179.5C72.2391 179.5 28.5 139.523 28.5 90.5C28.5 41.4773 72.2391 1.5 126.5 1.5C180.761 1.5 224.5 41.4773 224.5 90.5Z"  style="mix-blend-mode:darken"/>
   <path d="M224.5 90.5C224.5 139.523 180.761 179.5 126.5 179.5C72.2391 179.5 28.5 139.523 28.5 90.5C28.5 41.4773 72.2391 1.5 126.5 1.5C180.761 1.5 224.5 41.4773 224.5 90.5Z" stroke="black" stroke-width="3"/>
   <ellipse cx="82.5" cy="68.5" rx="17.5" ry="21.5" fill="black"/>
   <ellipse cx="172.5" cy="68.5" rx="17.5" ry="21.5" fill="black"/>

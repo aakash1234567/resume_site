@@ -1,29 +1,32 @@
 <template>
-  <div class="home">
+  <div class="project">
     <div class="proj" >
       <homeautomation />
     </div>
     <div class="proj" >
-      <!-- <contacttracker /> -->
+      <contacttracker />
+    </div>
+    <!-- <div class="proj">
+      <dinogame />
     </div>
     <div class="proj">
-      <!-- <dinogame /> -->
+      <electronicsfun />
     </div>
     <div class="proj">
-      <!-- <electronicsfun /> -->
+      <flutterchatapp />
     </div>
     <div class="proj">
-      <!-- <flutterchatapp /> -->
+      <opencvfun />
     </div>
     <div class="proj">
-      <!-- <opencvfun /> -->
+      <testcasegenerator />
     </div>
     <div class="proj">
-      <!-- <testcasegenerator /> -->
+      <eyantracomp />
     </div>
     <div class="proj">
-      <!-- <internproj /> -->
-    </div>
+      <internproj />
+    </div> -->
   </div>
 </template>
 
@@ -38,6 +41,8 @@ import flutterchatapp from '@/components/projects/flutterchatapp.vue'
 import opencvfun from '@/components/projects/opencvfun.vue'
 import testcasegenerator from '@/components/projects/testcasegenerator_cp.vue'
 import internproj from '@/components/projects/internproj.vue'
+import eyantracomp from '@/components/projects/eyantracomp.vue'
+
 export default {
   name: 'projects',
   components: {
@@ -48,16 +53,25 @@ export default {
     flutterchatapp,
     opencvfun,
     testcasegenerator,
-    internproj
+    internproj,
+    eyantracomp
   },
 }
 </script>
 <style media="screen">
+#root .project{
+    position: absolute;
+    padding-left: 5em;
+    height: 100%;
+    width:100%;
+    /* border: 2px solid green; */
+  }
 #root .proj{
   height: fit-content;
   max-width: calc(100% - 10vmin);
   background-color: white;
   margin:1em;
+  margin-left: 0em;
   position: relative;
   border: lightgrey 1px solid;
   border-radius: 0 15px 0 15px;
