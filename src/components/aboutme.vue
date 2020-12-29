@@ -288,6 +288,7 @@ $black: #202020;
     padding-right: 2em;
     color: white;
     position: relative;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
   }
   .blk{
     background-color: transparent;
@@ -299,9 +300,10 @@ $black: #202020;
     font-size: 3vmin;
     font-weight: 650;
     padding: .7em;
-    color: #1c1d1f;
+    color: white;
     position: relative;
     height:80%;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
   }
   #brdr{
     border-collapse:collapse;
@@ -323,7 +325,7 @@ $black: #202020;
     border: 1px solid;
   padding: 10px;
   box-shadow: 5px 10px #37b998;
-  background-color: #3884e8;
+  background-color: #232323;
   }
 
 

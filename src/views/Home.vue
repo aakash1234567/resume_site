@@ -136,8 +136,9 @@ export default {
     width:77%;
     margin-right: 3%;
   }
+
   #socialicon:hover{
-    transform: scale(1.5);
+    transform: scale(1.5) rotateZ(1turn);
   }
 
 </style>
