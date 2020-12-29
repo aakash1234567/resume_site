@@ -21,16 +21,16 @@
       </div>
       <div class="" style="" >
         <a href="https://www.linkedin.com/in/aakash-khandelwal-a700ab172/" target="_blank" >
-          <img style="margin-right:.5em;margin-top:1em" align="left" alt="Aakash Khandelwal LinkedIn" width="30em" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
+          <img id="socialicon" style="margin-right:.5em;margin-top:1em;transition:all 0.3s ease;" align="left" alt="Aakash Khandelwal LinkedIn" width="30em" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
         </a>
         <a href="https://github.com/aakash1234567" target="_blank">
-          <img style="margin-right:.5em;margin-top:1em" align="left" alt="Aakash's Github" width="30em" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
+          <img id="socialicon" style="margin-right:.5em;margin-top:1em;transition:all 0.3s ease;" align="left" alt="Aakash's Github" width="30em" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
         </a>
         <a href="https://www.codechef.com/users/aakash_20" target="_blank">
-          <img style="margin-right:.5em;margin-top:1em" align="left" alt="Aakash's Codechef" width="30em" src="https://cdn.jsdelivr.net/npm/simple-icons@3.12.1/icons/codechef.svg" />
+          <img id="socialicon" style="margin-right:.5em;margin-top:1em;transition:all 0.3s ease;" align="left" alt="Aakash's Codechef" width="30em" src="https://cdn.jsdelivr.net/npm/simple-icons@3.12.1/icons/codechef.svg" />
         </a>
         <a href="https://www.hackerrank.com/Aakashkhandelwa1" target="_blank">
-          <img style="margin-right:.5em;margin-top:1em" align="left" alt="Aakash's HackerRank" width="30em" src="https://cdn.jsdelivr.net/npm/simple-icons@3.12.1/icons/hackerrank.svg" />
+          <img id="socialicon" style="margin-right:.5em;margin-top:1em;transition:all 0.3s ease;" align="left" alt="Aakash's HackerRank" width="30em" src="https://cdn.jsdelivr.net/npm/simple-icons@3.12.1/icons/hackerrank.svg" />
         </a>
       </div>
   </div>
@@ -129,14 +129,15 @@ export default {
     /* height: fit-content; */
   /* width: 30%; */
   }
-  .abt{
+  #root .abt{
     /* border: 2px solid black; */
     float:right;
     height: 100%;
     width:77%;
     margin-right: 3%;
   }
-  #pic{
-
+  #socialicon:hover{
+    transform: scale(1.5);
   }
+
 </style>

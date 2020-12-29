@@ -50,7 +50,7 @@
         <p class="head"> <b>Internship</b> </p>
             <p> <b>eYantra IIT Bombay – Research Intern</b>  </p>
             <p>DATE 8 May – 27 June ,2020</p>
-            <p>Research Intern - Email Automation </p>
+            <p>Project - Email Automation </p>
             <p>Developed a desktop app with Vue-electron and Django framework for mailing
             services and semi-automating their time taking activities.
             </p>
@@ -58,27 +58,63 @@
     </div>
 
     <div class="has-animation animation-ltr" data-delay="10" style="padding-top:3%">
-      <p class="head"><b>ACHIEVEMENTS AND RESPONSIBILITIES</b> </p>
+      <p class="head"><b>Achievements and Responsibilities</b> </p>
       <ul class="content" style="padding-left:4%">
-        <li>e-Yantra Robotics competition, IIT Bombay DATE 15 Oct,2019 – 5 July,2020
-            [3rd position ]</li>
-        <li>MJF Code 19 Hackathon DATE 10 April – 13 April,2020 <br>
+        <li> <span style="float:left">e-Yantra Robotics competition, IIT Bombay[3rd position ]</span>
+      <span style="float:right">DATE 15 Oct,2019 – 5 July,2020</span>
+            </li>
+        <li><span style="float:left">MJF Code 19 Hackathon</span><span style="float:right"> DATE 10 April – 13 April,2020</span>  <br>
         The entry is recognized to be amongst the Top 250 entries submitted during the
         #MJFCODE19 Hackathon.</li>
-        <li>IoT challenge Exhibition, Runner-up DATE 28 Feb – 1 March,2020</li>
-        <li>Robowar,1st [ IGNUS’19, IIT Jodhpur]</li>
-        <li>Rajya Puraskar, Scouts DATE 28 Feb – 1 March,2020
+        <li><span style="float:left">IoT challenge Exhibition, Runner-up</span><span style="float:right"> DATE 28 Feb – 1 March,2020</span> </li>
+        <li><span style="float:left">Robowar ,IGNUS’19 ,IIT Jodhpur[1st position]</span></li>
+        <li><span style="float:left">Rajya Puraskar, Scouts</span><span style="float:right"> DATE 22 Feb 2013</span><br>
           The award was provided by governor of Rajasthan for outstanding performance
           in scouts.</li>
-        <li>Robotics Club [Mentor, Active Member] DATE June 2018 – Present</li>
-        <li>Developers Students Club [Core Team Member] DATE Sept. 2020 – Present</li>
-        <li>Jr. Project Technical Assistant, e-Yantra, IIT Bombay DATE August 2020 – Present</li>
-        <li>Campus Ambassador, e-Yantra, IIT Bombay DATE August 2020 – Present</li>
+        <br>
+        <li><span style="float:left">Robotics Club [Mentor, Active Member]</span><span style="float:right"> DATE June 2018 – Present</span> </li>
+        <li><span style="float:left">Developers Students Club [Core Team Member]</span><span style="float:right"> DATE Sept. 2020 – Present</span> </li>
+        <li><span style="float:left">Jr. Project Technical Assistant, e-Yantra, IIT Bombay</span><span style="float:right"> DATE August 2020 – Present</span> </li>
+        <li><span style="float:left">Campus Ambassador, e-Yantra, IIT Bombay</span><span style="float:right"> DATE August 2020 – Present</span> </li>
       </ul>
     </div>
-    <!-- <div class="has-animation animation-ltr" data-delay="10">
-      <p class="bigger">Reveal Animation </p>
-    </div> -->
+
+    <div class="has-animation animation-rtl" data-delay="1000">
+      <p class="head"> <b>Skills</b> </p>
+      <h4 style="padding-left:2%"> <b> Technical Skills</b></h4>
+          <ul class="content" style="padding-left:4%">
+            <li>Software Packages: Basic MATLAB, Proteus, SolidWorks, Arduino IDE, ATMEL
+            Studio, Atom/VS code.</li>
+            <li>Programming Languages: C, Python, Javascript, Embedded C.</li>
+            <li>Web-stack: Vue-electron, Django, Ajax, Google API, Selenium, Figma, MySQL,
+            PostgreSQL, Bootstrap, CSS, HTML, Firebase.</li>
+            <li>Embedded Projects, Image and Video processing(OpenCV), VCS (Github), Sphinx,
+            Flutter(For Android).</li>
+          </ul>
+          <h4 style="padding-left:2%"> <b> Key Skills</b></h4>
+          <ul class="content" style="padding-left:4%">
+            <li>Creative and self-motivated.</li>
+            <li>Leadership.</li>
+            <li>Individual as well as group working.</li>
+            <li>Project and time management skill.</li>
+            <li>Problem handling, Stress handling and troubleshooting.</li>
+          </ul>
+    </div>
+    <div class="has-animation animation-ltr" data-delay="10">
+      <p class="head"> <b>Extra Activities</b> </p>
+      <ul class="content" style="padding-left:4%">
+        <li>Line - Follower Event Coordinator [THAR’20, RTU Kota].</li>
+        <li>Coordinator of Embedded Robotics workshop ,2019 [RTU, Kota].</li>
+        <li>Participation in Ethical Hacking workshop 2019 [Rendezvous, IIT Delhi]</li>
+        <li>Participation in IoT workshop ,2019[JU-Rhythm, Jecrc University, Jaipur]</li>
+        <li>Participation in 'RTU Smart Business Hackthon ,2019 under TEQIP-3 [Jecrc, Jaipur]</li>
+        <li>Volunteer in Robo-War [THAR'18, RTU Kota]</li>
+        <li>Participation in embedded robotics workshop, 2017 [RTU, Kota]</li>
+        <li>Participation in lnmhacks 3.0 2018[LNMIIT, Jaipur]</li>
+        <li>Participation in Hurdlemania [TECHNEX’18, IIT BHU].</li>
+        <li>Participation in Line Seguidor [IGNUS'19, IIT Jodhpur].</li>
+      </ul>
+    </div>
   </div>
 </template>
 
