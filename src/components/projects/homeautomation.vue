@@ -8,8 +8,11 @@
 
             <!-- Button trigger modal -->
             <button v-b-modal.modal-multi-2 id="modbtn">Read More</button>
-
-            <b-modal id="modal-multi-2" size="xl" title="Smart Home Automation">
+            <button v-b-modal.modal-multi-22 id="modbtnclk" style="display:none">Read More</button>
+            <b-modal id="modal-multi-22" centered  size="xl" hide-footer hide-header>
+              <img :src="imgsrc" alt="" id="zoomimg">
+            </b-modal>
+            <b-modal id="modal-multi-2" size="xl" title="Smart Home Automation" hide-footer>
               <div>
                 <b-carousel
                   id="carousel-1"
@@ -35,6 +38,7 @@
                         height="520"
                         src="../../assets/homeauto/img1.jpg"
                         alt="image slot"
+                        @click="zoom"
                       >
                     </template>
                   </b-carousel-slide>
@@ -48,6 +52,7 @@
                         height="520"
                         src="../../assets/homeauto/img2.jpeg"
                         alt="image slot"
+                        @click="zoom"
                       >
                     </template>
                   </b-carousel-slide>
@@ -57,35 +62,35 @@
 
                     >
                     <template #img>
-                    <iframe src="https://www.youtube.com/embed/hwQhj5ubrYo" width="100%" height="100%"></iframe>
+                    <iframe src="https://www.youtube.com/embed/hwQhj5ubrYo" width="100%" height="100%" allowfullscreen="true"></iframe>
                     </template>
                   </b-carousel-slide>
                   <b-carousel-slide
                     caption="In Development"
                     text="Nulla vitae elit libsero, a pharetra augue mollis interdum.">
                     <template #img>
-                      <iframe src="https://www.youtube.com/embed/ws6J88ETLpI" width="100%" height="100%"></iframe>
+                      <iframe src="https://www.youtube.com/embed/ws6J88ETLpI" width="100%" height="100%" allowfullscreen="true"></iframe>
                     </template>
                   </b-carousel-slide>
                   <b-carousel-slide
                     caption="In Development"
                     text="Nulla vitae elit libero, a pharetra augue mollis interdum.">
                     <template #img>
-                      <iframe src="https://www.youtube.com/embed/YtIqmn4KIyo" width="100%" height="100%"></iframe>
+                      <iframe src="https://www.youtube.com/embed/YtIqmn4KIyo" width="100%" height="100%" allowfullscreen="true"></iframe>
                     </template>
                   </b-carousel-slide>
                   <b-carousel-slide
                     caption="In Development"
                     text="Nulla vitae elit libero, a pharetra augue mollis interdum.">
                     <template #img>
-                      <iframe src="https://www.youtube.com/embed/Cymp0VE5hWo" width="100%" height="100%"></iframe>
+                      <iframe src="https://www.youtube.com/embed/Cymp0VE5hWo" width="100%" height="100%" allowfullscreen="true"></iframe>
                     </template>
                   </b-carousel-slide>
                   <b-carousel-slide
                     caption="In Development"
                     text="Nulla vitae elit libero, a pharetra augue mollis interdum.">
                     <template #img>
-                      <iframe src="https://www.youtube.com/embed/FoVZmt7mntk" width="100%" height="100%"></iframe>
+                      <iframe src="https://www.youtube.com/embed/FoVZmt7mntk" width="100%" height="100%" allowfullscreen="true"></iframe>
                     </template>
                   </b-carousel-slide>
 
@@ -111,7 +116,8 @@ export default {
   data() {
     return {
       slide: 0,
-      sliding: null
+      sliding: null,
+      imgsrc: ""
     }
   },
   methods: {
@@ -120,6 +126,12 @@ export default {
     },
     onSlideEnd(slide) {
       this.sliding = false
+    },
+    zoom(slide){
+      console.log(slide.path[0].src)
+      document.getElementById('modbtnclk').click()
+      this.imgsrc = slide.path[0].src
+
     }
   }
 }
@@ -167,9 +179,13 @@ export default {
 .carousel-item{
   height: 55vmin;
 }
+#root #zoomimg{
+  width: 100%
+}
 img {
   height:inherit;
   width: inherit;
   background: black;
+  cursor:zoom-in;
 }
 </style>

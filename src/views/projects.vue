@@ -6,9 +6,6 @@
     <div class="proj" >
       <contacttracker />
     </div>
-    <!-- <div class="proj">
-      <dinogame />
-    </div>
     <div class="proj">
       <electronicsfun />
     </div>
@@ -19,10 +16,13 @@
       <opencvfun />
     </div>
     <div class="proj">
-      <testcasegenerator />
+      <eyantracomp />
+    </div>
+    <!-- <div class="proj">
+      <dinogame />
     </div>
     <div class="proj">
-      <eyantracomp />
+      <testcasegenerator />
     </div>
     <div class="proj">
       <internproj />

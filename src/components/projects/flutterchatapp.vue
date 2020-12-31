@@ -1,64 +1,37 @@
 <template lang="html">
-  <div class="homeautomation" >
-    <h1 class="projhead"> <b>Smart Home Automation </b> </h1>
+  <div class="flutterchatapp" >
+    <h1 class="projhead"> <b>Flutter Chat app</b> </h1>
     <div class="projcontent">
       <p> Prepared a working model of Smart home automation which can be controlled by
           voice, website and Android app.Designed website for IoT project. Developed our own dynamic website for IoT which is used for giving instructions and
             controlling microcontroller from anywhere in the world.
 
             <!-- Button trigger modal -->
-            <button v-b-modal.modal-xl id="modbtn">Read More</button>
+            <button v-b-modal.modal-multi-6 id="modbtn">Read More</button>
 
-            <b-modal id="modal-xl" size="xl" title="Smart Home Automation">
+            <b-modal id="modal-multi-6" size="xl" title="Flutter Chat app" hide-footer>
               <div>
                 <b-carousel
                   id="carousel-1"
                   v-model="slide"
-                  :interval="4000"
+                  :interval="40000"
                   controls
                   indicators
                   background="#ababab"
                   img-width="1024"
-                  img-height="480"
+                  img-height="520"
                   style="text-shadow: 1px 1px 2px #333;"
                   @sliding-start="onSlideStart"
                   @sliding-end="onSlideEnd"
                 >
-                  <!-- Text slides with image -->
                   <b-carousel-slide
-                    caption="First slide"
-                    text="Nulla vitae elit libero, a pharetra augue mollis interdum."
-                    img-src="https://picsum.photos/1024/480/?image=52"
-                  ></b-carousel-slide>
+                  caption="In Development"
+                  text="Nulla vitae elit libsero, a pharetra augue mollis interdum."
 
-                  <!-- Slides with custom text -->
-                  <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=54">
-                    <h1>Hello world!</h1>
-                  </b-carousel-slide>
-
-                  <!-- Slides with image only -->
-                  <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=58"></b-carousel-slide>
-
-                  <!-- Slides with img slot -->
-                  <!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment -->
-                  <b-carousel-slide>
+                    >
                     <template #img>
-                      <img
-                        class="d-block img-fluid w-100"
-                        width="1024"
-                        height="480"
-                        src="https://picsum.photos/1024/480/?image=55"
-                        alt="image slot"
-                      >
+                    <iframe src="https://www.youtube.com/embed/ZzhOBMtIZIw" width="100%" height="100%" allowfullscreen="true"></iframe>
                     </template>
-                  </b-carousel-slide>
-
-                  <!-- Slide with blank fluid image to maintain slide aspect ratio -->
-                  <b-carousel-slide caption="Blank Image" img-blank img-alt="Blank image">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eros felis, tincidunt
-                      a tincidunt eget, convallis vel est. Ut pellentesque ut lacus vel interdum.
-                    </p>
                   </b-carousel-slide>
                 </b-carousel>
 
@@ -72,14 +45,13 @@
             </b-modal>
             </p>
     </div>
-
   </div>
 </template>
 
 <script>
 
 export default {
-  name: 'homeautomation',
+  name: 'flutterchatapp',
   data() {
     return {
       slide: 0,
@@ -100,7 +72,7 @@ export default {
 <style lang="scss" scoped>
 /* <link href="" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> */
 // @import url('https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css');
-#root .homeautomation{
+#root .flutterchatapp{
   height: 100%;
   width: 100%;
   display: contents;

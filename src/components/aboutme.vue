@@ -80,7 +80,7 @@
 
     <div class="has-animation animation-rtl" data-delay="1000">
       <p class="head"> <b>Skills</b> </p>
-      <h4 style="padding-left:2%"> <b> Technical Skills</b></h4>
+      <h4 style="padding-left:2%;text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;color:white"> <b> Technical Skills</b></h4>
           <ul class="content" style="padding-left:4%">
             <li>Software Packages: Basic MATLAB, Proteus, SolidWorks, Arduino IDE, ATMEL
             Studio, Atom/VS code.</li>
@@ -90,7 +90,7 @@
             <li>Embedded Projects, Image and Video processing(OpenCV), VCS (Github), Sphinx,
             Flutter(For Android).</li>
           </ul>
-          <h4 style="padding-left:2%"> <b> Key Skills</b></h4>
+          <h4 style="padding-left:2%;text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;color:white"> <b> Key Skills</b></h4>
           <ul class="content" style="padding-left:4%">
             <li>Creative and self-motivated.</li>
             <li>Leadership.</li>

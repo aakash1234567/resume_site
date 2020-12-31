@@ -1,64 +1,60 @@
 <template lang="html">
-  <div class="homeautomation" >
-    <h1 class="projhead"> <b>Smart Home Automation </b> </h1>
+  <div class="electronicsfun" >
+    <h1 class="projhead"> <b>Electronics Fun</b> </h1>
     <div class="projcontent">
       <p> Prepared a working model of Smart home automation which can be controlled by
           voice, website and Android app.Designed website for IoT project. Developed our own dynamic website for IoT which is used for giving instructions and
             controlling microcontroller from anywhere in the world.
 
             <!-- Button trigger modal -->
-            <button v-b-modal.modal-xl id="modbtn">Read More</button>
-
-            <b-modal id="modal-xl" size="xl" title="Smart Home Automation">
+            <button v-b-modal.modal-multi-5 id="modbtn">Read More</button>
+            <button v-b-modal.modal-multi-55 id="modbtnclk5" style="display:none">Read More</button>
+            <b-modal id="modal-multi-55" centered  size="xl" hide-footer hide-header>
+              <img :src="imgsrc" alt="" id="zoomimg">
+            </b-modal>
+            <b-modal id="modal-multi-5" size="xl" title="Electronics Fun" hide-footer>
               <div>
                 <b-carousel
                   id="carousel-1"
                   v-model="slide"
-                  :interval="4000"
+                  :interval="40000"
                   controls
                   indicators
                   background="#ababab"
                   img-width="1024"
-                  img-height="480"
+                  img-height="520"
                   style="text-shadow: 1px 1px 2px #333;"
                   @sliding-start="onSlideStart"
                   @sliding-end="onSlideEnd"
                 >
                   <!-- Text slides with image -->
                   <b-carousel-slide
-                    caption="First slide"
-                    text="Nulla vitae elit libero, a pharetra augue mollis interdum."
-                    img-src="https://picsum.photos/1024/480/?image=52"
-                  ></b-carousel-slide>
-
-                  <!-- Slides with custom text -->
-                  <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=54">
-                    <h1>Hello world!</h1>
-                  </b-carousel-slide>
-
-                  <!-- Slides with image only -->
-                  <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=58"></b-carousel-slide>
-
-                  <!-- Slides with img slot -->
-                  <!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment -->
-                  <b-carousel-slide>
+                    caption="Working Prototype"
+                    text="Nulla vitae elit libero, a pharetra augue mollis interdum.">
                     <template #img>
                       <img
                         class="d-block img-fluid w-100"
                         width="1024"
-                        height="480"
-                        src="https://picsum.photos/1024/480/?image=55"
+                        height="520"
+                        src="../../assets/electronics/img1.jpg"
                         alt="image slot"
+                        @click="zoom"
                       >
                     </template>
                   </b-carousel-slide>
-
-                  <!-- Slide with blank fluid image to maintain slide aspect ratio -->
-                  <b-carousel-slide caption="Blank Image" img-blank img-alt="Blank image">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eros felis, tincidunt
-                      a tincidunt eget, convallis vel est. Ut pellentesque ut lacus vel interdum.
-                    </p>
+                  <b-carousel-slide
+                    caption="In Development"
+                    text="Nulla vitae elit libero, a pharetra augue mollis interdum.">
+                    <template #img>
+                      <img
+                        class="d-block img-fluid w-100"
+                        width="1024"
+                        height="520"
+                        src="../../assets/electronics/img2.jpg"
+                        alt="image slot"
+                        @click="zoom"
+                      >
+                    </template>
                   </b-carousel-slide>
                 </b-carousel>
 
@@ -72,18 +68,18 @@
             </b-modal>
             </p>
     </div>
-
   </div>
 </template>
 
 <script>
 
 export default {
-  name: 'homeautomation',
+  name: 'electronicsfun',
   data() {
     return {
       slide: 0,
-      sliding: null
+      sliding: null,
+      imgsrc: ""
     }
   },
   methods: {
@@ -92,6 +88,12 @@ export default {
     },
     onSlideEnd(slide) {
       this.sliding = false
+    },
+    zoom(slide){
+      console.log(slide.path[0].src)
+      document.getElementById('modbtnclk5').click()
+      this.imgsrc = slide.path[0].src
+
     }
   }
 }
@@ -100,7 +102,7 @@ export default {
 <style lang="scss" scoped>
 /* <link href="" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> */
 // @import url('https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css');
-#root .homeautomation{
+#root .electronicsfun{
   height: 100%;
   width: 100%;
   display: contents;
@@ -139,9 +141,13 @@ export default {
 .carousel-item{
   height: 55vmin;
 }
+#root #zoomimg{
+  width: 100%
+}
 img {
   height:inherit;
   width: inherit;
   background: black;
+  cursor:zoom-in;
 }
 </style>
