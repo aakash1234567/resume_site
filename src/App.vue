@@ -33,7 +33,7 @@ export default {
     var pattern3 = /contact/i
     console.log(string.match(pattern2))
     if (string.match(pattern1)){
-      document.body.style.backgroundColor = '#c92142' ;
+      document.body.style.backgroundColor = '#1c273b' ;
     }
     else if (string.match(pattern2)){
       document.body.style.backgroundColor = "#9f32b8";

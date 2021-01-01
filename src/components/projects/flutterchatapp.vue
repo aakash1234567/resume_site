@@ -2,10 +2,8 @@
   <div class="flutterchatapp" >
     <h1 class="projhead"> <b>Flutter Chat app</b> </h1>
     <div class="projcontent">
-      <p> Prepared a working model of Smart home automation which can be controlled by
-          voice, website and Android app.Designed website for IoT project. Developed our own dynamic website for IoT which is used for giving instructions and
-            controlling microcontroller from anywhere in the world.
-
+      <p> Developed a chatting app with flutter and firebase as database. The main features of the app are chat with your friends
+        with stickers, Google signin, create and update your profile, view others profile, interface for text posts which can be seen by everyone.
             <!-- Button trigger modal -->
             <button v-b-modal.modal-multi-6 id="modbtn">Read More</button>
 
@@ -25,9 +23,6 @@
                   @sliding-end="onSlideEnd"
                 >
                   <b-carousel-slide
-                  caption="In Development"
-                  text="Nulla vitae elit libsero, a pharetra augue mollis interdum."
-
                     >
                     <template #img>
                     <iframe src="https://www.youtube.com/embed/ZzhOBMtIZIw" width="100%" height="100%" allowfullscreen="true"></iframe>
@@ -35,10 +30,11 @@
                   </b-carousel-slide>
                 </b-carousel>
 
-                <p class="mt-4">
+                <!-- <p class="mt-4">
                   Slide #: {{ slide }}<br>
                   Sliding: {{ sliding }}
-                </p>
+                </p> -->
+                <h4 v-if='slide===0'> Video of the original App</h4>
                 <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
               </div>

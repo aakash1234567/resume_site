@@ -11,7 +11,7 @@
                 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#person"></use>
               </svg><span>About</span></router-link>
           </li>
-          <li class="menu__item menu__item--active" data-background="c92142">
+          <li class="menu__item menu__item--active" data-background="1c273b">
             <router-link to="/projects">
               <svg class="video-player">
                 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#video-player"></use>

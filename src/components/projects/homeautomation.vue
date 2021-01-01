@@ -3,9 +3,9 @@
     <h1 class="projhead"> <b>Smart Home Automation </b> </h1>
     <div class="projcontent">
       <p> Prepared a working model of Smart home automation which can be controlled by
-          voice, website and Android app.Designed website for IoT project. Developed our own dynamic website for IoT which is used for giving instructions and
-            controlling microcontroller from anywhere in the world.
-
+          voice, website and Android app. Developed our own dynamic website for
+          IoT which was used for giving instructions and
+            controlling microcontroller from anywhere.
             <!-- Button trigger modal -->
             <button v-b-modal.modal-multi-2 id="modbtn">Read More</button>
             <button v-b-modal.modal-multi-22 id="modbtnclk" style="display:none">Read More</button>
@@ -30,7 +30,7 @@
                   <!-- Text slides with image -->
                   <b-carousel-slide
                     caption="Working Prototype"
-                    text="Nulla vitae elit libero, a pharetra augue mollis interdum.">
+                    >
                     <template #img>
                       <img
                         class="d-block img-fluid w-100"
@@ -44,7 +44,7 @@
                   </b-carousel-slide>
                   <b-carousel-slide
                     caption="In Development"
-                    text="Nulla vitae elit libero, a pharetra augue mollis interdum.">
+                    >
                     <template #img>
                       <img
                         class="d-block img-fluid w-100"
@@ -57,49 +57,38 @@
                     </template>
                   </b-carousel-slide>
                   <b-carousel-slide
-                  caption="In Development"
-                  text="Nulla vitae elit libsero, a pharetra augue mollis interdum."
-
                     >
                     <template #img>
                     <iframe src="https://www.youtube.com/embed/hwQhj5ubrYo" width="100%" height="100%" allowfullscreen="true"></iframe>
                     </template>
                   </b-carousel-slide>
                   <b-carousel-slide
-                    caption="In Development"
-                    text="Nulla vitae elit libsero, a pharetra augue mollis interdum.">
+                    >
                     <template #img>
                       <iframe src="https://www.youtube.com/embed/ws6J88ETLpI" width="100%" height="100%" allowfullscreen="true"></iframe>
                     </template>
                   </b-carousel-slide>
-                  <b-carousel-slide
-                    caption="In Development"
-                    text="Nulla vitae elit libero, a pharetra augue mollis interdum.">
+                  <b-carousel-slide>
                     <template #img>
                       <iframe src="https://www.youtube.com/embed/YtIqmn4KIyo" width="100%" height="100%" allowfullscreen="true"></iframe>
                     </template>
                   </b-carousel-slide>
-                  <b-carousel-slide
-                    caption="In Development"
-                    text="Nulla vitae elit libero, a pharetra augue mollis interdum.">
+                  <b-carousel-slide>
                     <template #img>
                       <iframe src="https://www.youtube.com/embed/Cymp0VE5hWo" width="100%" height="100%" allowfullscreen="true"></iframe>
                     </template>
                   </b-carousel-slide>
-                  <b-carousel-slide
-                    caption="In Development"
-                    text="Nulla vitae elit libero, a pharetra augue mollis interdum.">
+                  <b-carousel-slide>
                     <template #img>
                       <iframe src="https://www.youtube.com/embed/FoVZmt7mntk" width="100%" height="100%" allowfullscreen="true"></iframe>
                     </template>
                   </b-carousel-slide>
-
                 </b-carousel>
 
-                <p class="mt-4">
+                <!-- <p class="mt-4">
                   Slide #: {{ slide }}<br>
                   Sliding: {{ sliding }}
-                </p>
+                </p> -->
                 <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
               </div>

@@ -2,10 +2,9 @@
   <div class="opencvfun" >
     <h1 class="projhead"> <b>Opencv Fun</b> </h1>
     <div class="projcontent">
-      <p> Prepared a working model of Smart home automation which can be controlled by
-          voice, website and Android app.Designed website for IoT project. Developed our own dynamic website for IoT which is used for giving instructions and
-            controlling microcontroller from anywhere in the world.
-
+      <p> Some Opencv fun projects made by me.First one is playing chrome dino game with Opencv using object detection and motion Detection
+        in this case a pen. Another is making a human being invisible by detecting his/her skin color and then showing the borders
+        in another frame.
             <!-- Button trigger modal -->
             <button v-b-modal.modal-multi-4 id="modbtn">Read More</button>
 
@@ -25,25 +24,25 @@
                   @sliding-end="onSlideEnd"
                 >
                   <b-carousel-slide
-                    caption="In Development"
-                    text="Nulla vitae elit libero, a pharetra augue mollis interdum.">
+                    >
                     <template #img>
                       <iframe src="https://www.youtube.com/embed/A7Od4vp37a4" width="100%" height="100%" allowfullscreen="true"></iframe>
                     </template>
                   </b-carousel-slide>
                   <b-carousel-slide
-                    caption="In Development"
-                    text="Nulla vitae elit libero, a pharetra augue mollis interdum.">
+                    >
                     <template #img>
                       <iframe src="https://www.youtube.com/embed/__3-nF-aGL0" width="100%" height="100%" allowfullscreen="true"></iframe>
                     </template>
                   </b-carousel-slide>
                 </b-carousel>
 
-                <p class="mt-4">
+                <!-- <p class="mt-4">
                   Slide #: {{ slide }}<br>
                   Sliding: {{ sliding }}
-                </p>
+                </p> -->
+                <h4 v-if='slide===0'> Playing chrome dino game with object detection</h4>
+                <h4 v-if='slide===1'> Trying to be Invisible</h4>
                 <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
               </div>

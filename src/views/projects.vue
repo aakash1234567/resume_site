@@ -1,25 +1,39 @@
 <template>
   <div class="project">
+    <div class="outproj" >
     <div class="proj" >
       <homeautomation />
     </div>
+    </div>
+    <div class="outproj" >
     <div class="proj">
       <internproj />
     </div>
+    </div>
+    <div class="outproj" >
     <div class="proj">
       <flutterchatapp />
     </div>
+    </div>
+    <div class="outproj" >
     <div class="proj">
       <opencvfun />
     </div>
+    </div>
+    <div class="outproj" >
     <div class="proj">
       <eyantracomp />
     </div>
+    </div>
+    <div class="outproj" >
     <div class="proj" >
       <contacttracker />
     </div>
-    <div class="proj" style="left:50%" >
+    </div>
+    <div class="outproj" style="left:50%">
+    <div class="proj"  >
       <electronicsfun />
+    </div>
     </div>
     <!-- <div class="proj">
       <dinogame />
@@ -60,6 +74,9 @@ export default {
 }
 </script>
 <style media="screen">
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+
 #root .project{
     /* position: relative; */
     padding-left: 5em;
@@ -69,8 +86,8 @@ export default {
     resize: horizontal;
     background:transparent;
     display: grid;
-    /* flex-wrap: wrap; */
-    grid-template-columns: repeat(2, 1fr);
+    flex-wrap: wrap;
+    grid-template-columns: repeat(2, 2fr);
      /* gap: .2em; */
      width: calc(100% - 0);
      justify-content: center;
@@ -79,21 +96,48 @@ export default {
      /* display: flex; */
     /* border: 2px solid green; */
   }
+#root .outproj{
+    height: fit-content;
+    width:fit-content;
+    /* max-width: calc(100% - 10vmin); */
+    /* background-color: white; */
+    margin:1em;
+    margin-left: 0em;
+    position: relative;
+    /* border: lightgrey 1px solid; */
+    /* border-radius: 0 600px 0 15px; */
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.8);
+    justify-items:center;
+    /* display: inline-grid; */
+    background-color: transparent
+    /* font-family: 'Noto Sans JP', sans-serif; */
+  }
 #root .proj{
   height: fit-content;
   max-width: calc(100% - 10vmin);
-  background-color: white;
-  margin:1em;
-  margin-left: 0em;
+  background-color: #0c3f91;
+  margin:0px;
+  padding: 0px;
   position: relative;
-  border: lightgrey 1px solid;
-  border-radius: 0 15px 0 15px;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.8);
+  /* border: lightgrey 1px solid; */
+  border-radius: 300px 100px 400px 100px;
+  box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, .6);
   justify-items:center;
   display: grid;
+
 }
 #root .proj:hover{
-  box-shadow: 0 7px 10px rgba(0, 0, 0, 0.8);
+  box-shadow: 7px 7px 10px 10px rgba(0, 0, 0, 0.8);
 }
-
+#root .projhead{
+  font-size: 7vh;
+  color:#c7d5f0;
+  font-family:'Yanone Kaffeesatz', sans-serif;
+text-shadow: 0 0 3px #FF0000, 3px 3px 3px #FF0000;
+}
+#root .projcontent{
+  color:white;
+font-family: 'Inconsolata', monospace;
+text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
 </style>

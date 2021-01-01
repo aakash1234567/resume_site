@@ -2,10 +2,9 @@
   <div class="electronicsfun" >
     <h1 class="projhead"> <b>Electronics Fun</b> </h1>
     <div class="projcontent">
-      <p> Prepared a working model of Smart home automation which can be controlled by
-          voice, website and Android app.Designed website for IoT project. Developed our own dynamic website for IoT which is used for giving instructions and
-            controlling microcontroller from anywhere in the world.
-
+      <p>Some Electronics projects made by me. These projects include a cnc plotter, line follower, edge avoider,robo race bot, keypad door
+          lock system, temperature detection and lcd display, IoT and RFID based parking, toll booth and traffic
+          challan system. 
             <!-- Button trigger modal -->
             <button v-b-modal.modal-multi-5 id="modbtn">Read More</button>
             <button v-b-modal.modal-multi-55 id="modbtnclk5" style="display:none">Read More</button>
@@ -29,8 +28,8 @@
                 >
                   <!-- Text slides with image -->
                   <b-carousel-slide
-                    caption="Working Prototype"
-                    text="Nulla vitae elit libero, a pharetra augue mollis interdum.">
+                    caption="Temperature detection"
+                    text="Lcd displaying live Temperature">
                     <template #img>
                       <img
                         class="d-block img-fluid w-100"
@@ -43,8 +42,8 @@
                     </template>
                   </b-carousel-slide>
                   <b-carousel-slide
-                    caption="In Development"
-                    text="Nulla vitae elit libero, a pharetra augue mollis interdum.">
+                    caption="Line Follower with Edge avoider"
+                    >
                     <template #img>
                       <img
                         class="d-block img-fluid w-100"
@@ -58,10 +57,10 @@
                   </b-carousel-slide>
                 </b-carousel>
 
-                <p class="mt-4">
+                <!-- <p class="mt-4">
                   Slide #: {{ slide }}<br>
                   Sliding: {{ sliding }}
-                </p>
+                </p> -->
                 <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
               </div>
