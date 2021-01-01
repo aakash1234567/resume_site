@@ -64,6 +64,7 @@ export default {
     /* border:2px solid black; */
     /* height:15em;
     width:24em;*/
+    position: fixed;
     width: 16%;
     float:left;
     margin-top: 2%;

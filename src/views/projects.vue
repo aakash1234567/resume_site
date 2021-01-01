@@ -3,11 +3,8 @@
     <div class="proj" >
       <homeautomation />
     </div>
-    <div class="proj" >
-      <contacttracker />
-    </div>
     <div class="proj">
-      <electronicsfun />
+      <internproj />
     </div>
     <div class="proj">
       <flutterchatapp />
@@ -18,15 +15,19 @@
     <div class="proj">
       <eyantracomp />
     </div>
+    <div class="proj" >
+      <contacttracker />
+    </div>
+    <div class="proj" style="left:50%" >
+      <electronicsfun />
+    </div>
     <!-- <div class="proj">
       <dinogame />
     </div>
     <div class="proj">
       <testcasegenerator />
     </div>
-    <div class="proj">
-      <internproj />
-    </div> -->
+     -->
   </div>
 </template>
 
@@ -60,10 +61,22 @@ export default {
 </script>
 <style media="screen">
 #root .project{
-    position: absolute;
+    /* position: relative; */
     padding-left: 5em;
+    position: absolute;
     height: 100%;
-    width:100%;
+    /* width:145vmin; */
+    resize: horizontal;
+    background:transparent;
+    display: grid;
+    /* flex-wrap: wrap; */
+    grid-template-columns: repeat(2, 1fr);
+     /* gap: .2em; */
+     width: calc(100% - 0);
+     justify-content: center;
+
+     /* align-content: center; */
+     /* display: flex; */
     /* border: 2px solid green; */
   }
 #root .proj{
@@ -76,8 +89,11 @@ export default {
   border: lightgrey 1px solid;
   border-radius: 0 15px 0 15px;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.8);
+  justify-items:center;
+  display: grid;
 }
 #root .proj:hover{
   box-shadow: 0 7px 10px rgba(0, 0, 0, 0.8);
 }
+
 </style>

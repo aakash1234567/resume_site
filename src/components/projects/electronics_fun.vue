@@ -124,7 +124,7 @@ export default {
   right:0%;
   border:none;
   margin-right: 3vmin;
-  position: absolute;
+  position: relative;
   background-color: #4CAF50;
   box-shadow: 2px 2px lightgreen;
 }

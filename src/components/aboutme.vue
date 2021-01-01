@@ -58,23 +58,41 @@
 
     <div class="has-animation animation-ltr" data-delay="10" style="padding-top:3%">
       <p class="head"><b>Achievements and Responsibilities</b> </p>
-      <ul class="content" style="padding-left:4%">
-        <li> <span style="float:left">e-Yantra Robotics competition, IIT Bombay[3rd position ]</span>
-      <span style="float:right">DATE 15 Oct,2019 – 5 July,2020</span>
-            </li>
-        <li><span style="float:left">MJF Code 19 Hackathon</span><span style="float:right"> DATE 10 April – 13 April,2020</span>  <br>
+      <ul class="content" style="padding-left:4%" id="smscreen">
+        <li> <span >e-Yantra Robotics competition, IIT Bombay[3rd position ]</span></li>
+      <span >DATE 15 Oct,2019 – 5 July,2020</span>
+        <li><span >MJF Code 19 Hackathon</span><br>
         The entry is recognized to be amongst the Top 250 entries submitted during the
         #MJFCODE19 Hackathon.</li>
-        <li><span style="float:left">IoT challenge Exhibition, Runner-up</span><span style="float:right"> DATE 28 Feb – 1 March,2020</span> </li>
+        <span > DATE 10 April – 13 April,2020</span>
+        <li><span >IoT challenge Exhibition, Runner-up</span></li><span> DATE 28 Feb – 1 March,2020</span>
+        <li><span>Robowar ,IGNUS’19 ,IIT Jodhpur[1st position]</span></li>
+        <li><span >Rajya Puraskar, Scouts</span><br>
+          The award was provided by governor of Rajasthan for outstanding performance
+          in scouts.</li>
+          <span > DATE 22 Feb 2013</span>
+        <li><span >Robotics Club [Mentor, Active Member]</span></li><span > DATE June 2018 – Present</span>
+        <li><span >Developers Students Club [Core Team Member]</span></li><span > DATE Sept. 2020 – Present</span>
+        <li><span >Jr. Project Technical Assistant, e-Yantra, IIT Bombay</span></li><span > DATE August 2020 – Present</span>
+        <li><span >Campus Ambassador, e-Yantra, IIT Bombay</span></li><span > DATE August 2020 – Present</span>
+      </ul>
+      <ul class="content" style="padding-left:4%" id="lgscreen">
+        <li> <span style="float:left">e-Yantra Robotics competition, IIT Bombay[3rd position ]</span>
+      <span style="float:right" id="dates">DATE 15 Oct,2019 – 5 July,2020</span>
+            </li>
+        <li><span style="float:left">MJF Code 19 Hackathon</span><span style="float:right" id="dates"> DATE 10 April – 13 April,2020</span>  <br>
+        The entry is recognized to be amongst the Top 250 entries submitted during the
+        #MJFCODE19 Hackathon.</li>
+        <li><span style="float:left">IoT challenge Exhibition, Runner-up</span><span style="float:right" id="dates"> DATE 28 Feb – 1 March,2020</span> </li>
         <li><span style="float:left">Robowar ,IGNUS’19 ,IIT Jodhpur[1st position]</span></li>
-        <li><span style="float:left">Rajya Puraskar, Scouts</span><span style="float:right"> DATE 22 Feb 2013</span><br>
+        <li><span style="float:left">Rajya Puraskar, Scouts</span><span style="float:right" id="dates"> DATE 22 Feb 2013</span><br>
           The award was provided by governor of Rajasthan for outstanding performance
           in scouts.</li>
         <br>
-        <li><span style="float:left">Robotics Club [Mentor, Active Member]</span><span style="float:right"> DATE June 2018 – Present</span> </li>
-        <li><span style="float:left">Developers Students Club [Core Team Member]</span><span style="float:right"> DATE Sept. 2020 – Present</span> </li>
-        <li><span style="float:left">Jr. Project Technical Assistant, e-Yantra, IIT Bombay</span><span style="float:right"> DATE August 2020 – Present</span> </li>
-        <li><span style="float:left">Campus Ambassador, e-Yantra, IIT Bombay</span><span style="float:right"> DATE August 2020 – Present</span> </li>
+        <li><span style="float:left">Robotics Club [Mentor, Active Member]</span><span style="float:right" id="dates"> DATE June 2018 – Present</span> </li>
+        <li><span style="float:left">Developers Students Club [Core Team Member]</span><span style="float:right" id="dates"> DATE Sept. 2020 – Present</span> </li>
+        <li><span style="float:left">Jr. Project Technical Assistant, e-Yantra, IIT Bombay</span><span style="float:right" id="dates"> DATE August 2020 – Present</span> </li>
+        <li><span style="float:left">Campus Ambassador, e-Yantra, IIT Bombay</span><span style="float:right" id="dates"> DATE August 2020 – Present</span> </li>
       </ul>
     </div>
 
@@ -327,8 +345,22 @@ $black: #202020;
   box-shadow: 5px 10px #37b998;
   background-color: #232323;
   }
-
-
+  @media screen and (min-width: 1150px) {
+    #root #smscreen{
+      display: none
+    }
+    #lgscreen{
+      display: content
+    }
+  }
+  @media screen and (max-width: 1150px) {
+    #root #smscreen{
+      display: content
+    }
+    #lgscreen{
+      display: none
+    }
+  }
 /* On screens that are 992px wide or less, go from four columns to two columns */
 @media screen and (max-width: 992px) {
   .blk {

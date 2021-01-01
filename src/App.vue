@@ -4,6 +4,7 @@
       <navbar />
       <spider />
       <robot />
+      <remote />
       <!-- <router-link to="/"></router-link> -->
       <!-- <router-link to="/about">About</router-link> -->
     <!-- </div> -->
@@ -16,12 +17,14 @@
 import navbar from '@/components/navbar.vue'
 import spider from '@/components/spider.vue'
 import robot from '@/components/robot.vue'
+import remote from '@/components/remote.vue'
 export default {
   name: 'app',
   components: {
     navbar,
     spider,
-    robot
+    robot,
+    remote
   },
   mounted() {
     var string = window.location.href;
