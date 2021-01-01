@@ -3,7 +3,7 @@
     <h1 class="projhead"> <b>Opencv Fun</b> </h1>
     <div class="projcontent">
       <p> Some Opencv fun projects made by me.First one is playing chrome dino game with Opencv using object detection and motion Detection
-        in this case a pen. Another is making a human being invisible by detecting his/her skin color and then showing the borders
+        . Another is making a human being invisible by detecting his/her skin color and then showing the borders
         in another frame.
             <!-- Button trigger modal -->
             <button v-b-modal.modal-multi-4 id="modbtn">Read More</button>

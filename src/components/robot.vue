@@ -51,15 +51,23 @@ export default {
       var temp1 = document.getElementsByClassName("robot")[0].querySelectorAll('rect')
       // var temp2 = document.getElementsByClassName("robot")[0].querySelectorAll('.eye1 .eye2')
       var temp2 = document.getElementsByClassName("robot")[0].querySelectorAll('.head')
-      var eye1 = document.getElementsByClassName("robot")[0].querySelectorAll('.eye1')
-      var eye2 = document.getElementsByClassName("robot")[0].querySelectorAll('.eye2')
+      var temp3 = document.getElementsByClassName("robot")[0].querySelectorAll('ellipse')
+      var temp4 = document.getElementsByClassName("robot")[0].querySelectorAll('path')
       anime({
         targets: temp1,
         translateY: '250px'
       });
       anime({
         targets: temp2,
-        translateY: '150px'
+        translateY: '350px'
+      });
+      anime({
+        targets: temp3,
+        translateY: '850px'
+      });
+      anime({
+        targets: temp4,
+        translateY: '850px'
       });
       // console.log(temp)
     },
@@ -69,7 +77,8 @@ export default {
       var temp2 = document.getElementsByClassName("robot")[0].querySelectorAll('.head')
       var eye1 = document.getElementsByClassName("robot")[0].querySelectorAll('.eye1')
       var eye2 = document.getElementsByClassName("robot")[0].querySelectorAll('.eye2')
-
+      var temp3 = document.getElementsByClassName("robot")[0].querySelectorAll('ellipse')
+      var temp4 = document.getElementsByClassName("robot")[0].querySelectorAll('path')
       anime({
         targets: temp1,
         translateY: '0px'
@@ -78,7 +87,14 @@ export default {
         targets: temp2,
         translateY: '0px'
       });
-
+      anime({
+        targets: temp3,
+        translateY: '0px'
+      });
+      anime({
+        targets: temp4,
+        translateY: '0px'
+      });
       document.getElementsByClassName("eye1")[0].style.animationPlayState = "running"
       document.getElementsByClassName("eye2")[0].style.animationPlayState = "running"
       document.getElementsByClassName("hand")[0].style.animationPlayState = "running"

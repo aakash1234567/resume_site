@@ -30,7 +30,7 @@
       <contacttracker />
     </div>
     </div>
-    <div class="outproj" style="left:50%">
+    <div class="outproj" id="outproj" >
     <div class="proj"  >
       <electronicsfun />
     </div>
@@ -76,26 +76,62 @@ export default {
 <style media="screen">
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+@media screen and (max-width: 650px) {
+  #root .project {
+    /* position: relative; */
+    padding-left: 5em;
+    position: absolute;
+    height: 100%;
+    overflow:visible;
+    resize:both;
+    /* width:145vmin; */
+    background:transparent;
+    /* display: grid; */
+    /* flex-wrap: wrap; */
+    /* grid-template-columns: repeat(2, 1fr); */
+     /* gap: .2em; */
+     /* width: calc(100% - 0); */
+     /* justify-content: center; */
+     gap: .2em;
+     width: calc(100% - 0);
+     display: flex;
+     flex-wrap: wrap;
+     /* align-content: center; */
+     /* display: flex; */
+    /* border: 2px solid green; */
+  }
+  #root #outproj{
 
+  }
+}
+@media screen and (min-width: 650px) {
 #root .project{
     /* position: relative; */
     padding-left: 5em;
     position: absolute;
     height: 100%;
+    overflow:visible;
+    resize:both;
     /* width:145vmin; */
-    resize: horizontal;
     background:transparent;
     display: grid;
-    flex-wrap: wrap;
-    grid-template-columns: repeat(2, 2fr);
+    /* flex-wrap: wrap; */
+    grid-template-columns: repeat(2, 1fr);
      /* gap: .2em; */
+     /* width: calc(100% - 0); */
+     /* justify-content: center; */
+     gap: .2em;
      width: calc(100% - 0);
-     justify-content: center;
-
+     /* display: flex; */
+     /* flex-wrap: wrap; */
      /* align-content: center; */
      /* display: flex; */
     /* border: 2px solid green; */
   }
+  #root #outproj{
+    left:50%
+  }
+}
 #root .outproj{
     height: fit-content;
     width:fit-content;
@@ -114,7 +150,7 @@ export default {
   }
 #root .proj{
   height: fit-content;
-  max-width: calc(100% - 10vmin);
+  /* max-width: calc(100% - 10vmin); */
   background-color: #0c3f91;
   margin:0px;
   padding: 0px;

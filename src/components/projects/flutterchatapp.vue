@@ -2,8 +2,8 @@
   <div class="flutterchatapp" >
     <h1 class="projhead"> <b>Flutter Chat app</b> </h1>
     <div class="projcontent">
-      <p> Developed a chatting app with flutter and firebase as database. The main features of the app are chat with your friends
-        with stickers, Google signin, create and update your profile, view others profile, interface for text posts which can be seen by everyone.
+      <p> Developed a chatting app using flutter and firebase as database. The main features of the app includes: chat with your friends
+        , Google Sign In, create and update your profile, view others profile, interface for text posts which can be seen by everyone.
             <!-- Button trigger modal -->
             <button v-b-modal.modal-multi-6 id="modbtn">Read More</button>
 
