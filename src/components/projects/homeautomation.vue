@@ -83,6 +83,7 @@
                       <iframe src="https://www.youtube.com/embed/FoVZmt7mntk" width="100%" height="100%" allowfullscreen="true"></iframe>
                     </template>
                   </b-carousel-slide>
+
                 </b-carousel>
 
                 <!-- <p class="mt-4">

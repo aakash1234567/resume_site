@@ -18,8 +18,7 @@
         <div class="elmsg"><h1>H</h1><h1>i</h1><h1>i</h1><h1>!</h1></div>
         <div class="elmsg"><h1>A</h1><h1>A</h1><h1>K</h1><h1>A</h1><h1>S</h1><h1>H</h1></div>
         <!-- <div class="elmsg"><h1>K</h1><h1>H</h1><h1>A</h1><h1>N</h1><h1>D</h1><h1>E</h1><h1>L</h1><h1>W</h1><h1>A</h1><h1>L</h1></div> -->
-      </div>
-      <div class="" style="" >
+
         <a href="https://www.linkedin.com/in/aakash-khandelwal-a700ab172/" target="_blank" >
           <img id="socialicon" style="margin-right:.5em;margin-top:1em;transition:all 0.3s ease;" align="left" alt="Aakash Khandelwal LinkedIn" width="30em" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
         </a>
@@ -53,90 +52,151 @@ export default {
 </script>
 <style media="screen">
 @import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
-#root  .home{
-    position: absolute;
-    padding-left: 6em;
-    height: 100%;
-    width:100%;
-    /* border: 2px solid green; */
-  }
-  #root .welcomemsg{
-    /* border:2px solid black; */
-    /* height:15em;
-    width:24em;*/
-    position: fixed;
-    width: 16%;
-    float:left;
-    margin-top: 2%;
 
-  }
-
-  @media screen and (min-width: 500px) {
-  #root h1 {
-      font-size: 3.3vmin;
-    }
-  }
-  @media screen and (min-width: 700px) {
-  #root h1 {
-      font-size: 4vmin;
-    }
-  }
   @media screen and (min-width: 900px) {
-  #root h1 {
-      font-size: 5.2vmin;
+      @media screen and (min-width: 900px) {
+      #root h1 {
+          font-size: 5.2vmin;
+        }
+      }
+    #root  .home{
+        position: absolute;
+        padding-left: 6em;
+        height: 100%;
+        width:100%;
+        /* border: 2px solid green; */
+      }
+    #root .welcomemsg{
+      /* border:2px solid black; */
+      /* height:15em;
+      width:24em;*/
+      position: absolute;
+      width: 16%;
+      float:left;
+      margin-top: 2%;
+    }
+    #root .abt{
+      /* border: 2px solid black; */
+      float:right;
+      height: 100%;
+      width:77%;
+      margin-right: 3%;
+    }
+    #root .welcomemsg h1{
+      /* font-size: 4.7vmin; */
+      padding-right: .05em;
+      margin:0;
+      font-family: 'Changa', sans-serif;
+      /* text-transform: uppercase; */
+      font-weight: bold;
+      text-decoration-color: black;
+      transition:all 0.3s ease;
+      height: fit-content;
+      display: inline-block;
+      width: -moz-fit-content;
+    width: fit-content;
+    }
+    #root .msg{
+      top: 10%;
+      height: fit-content;
+      width:fit-content
+    }
+  #root  .welcomemsg h1:hover{
+      -webkit-transform: scaleY(0.7);
+          -ms-transform: scaleY(0.7);
+          transform: scaleY(0.7);
+    }
+    #root .elmsg{
+      padding:0;
+      margin: 0;
+      height: fit-content;
+      position: relative;
+    /* width: 30%; */
+    }
+
+    #frame{
+      padding:0;
+      margin: 0;
+      /* height: fit-content; */
+    /* width: 30%; */
     }
   }
-  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 500px) {
-    #root h1 {
-      font-size: 2.7vmin;
+  @media screen and (max-width: 900px) {
+
+        #root h1 {
+          font-size: 5.2vmin;
+        }
+
+    #root  .home{
+        position: absolute;
+        padding-left: 4.2em;
+        height: 100%;
+        width:100%;
+        /* border: 2px solid green; */
+      }
+    #root .welcomemsg{
+      /* border:2px solid black; */
+      /* height:15em;
+      width:24em;*/
+      position: relative;
+      height: 25vh;
+      margin-top: 2%;
     }
-  }
-  #root .welcomemsg h1{
-    /* font-size: 4.7vmin; */
-    padding-right: .05em;
-    margin:0;
-    font-family: 'Changa', sans-serif;
-    /* text-transform: uppercase; */
-    font-weight: bold;
-    text-decoration-color: black;
-    transition:all 0.3s ease;
-    height: fit-content;
-    display: inline-block;
-    width: -moz-fit-content;
-  width: fit-content;
-  }
-  #root .msg{
-    top: 10%;
-    height: fit-content;
-    width:fit-content
-  }
-#root  .welcomemsg h1:hover{
-    -webkit-transform: scaleY(0.7);
-        -ms-transform: scaleY(0.7);
-        transform: scaleY(0.7);
-  }
-  #root .elmsg{
-    padding:0;
-    margin: 0;
-    height: fit-content;
-    position: relative;
-  /* width: 30%; */
+    #root .abt{
+      /* border: 2px solid black; */
+      /* float:right */
+      /* height: 100%; */
+      margin:0px;
+      position: relative;
+      /* width:77%; */
+      /* margin-right: 3%; */
+    }
+    #root .welcomemsg h1{
+      /* font-size: 4.7vmin; */
+      padding-right: .05em;
+      margin:0;
+      font-family: 'Changa', sans-serif;
+      /* text-transform: uppercase; */
+      font-weight: bold;
+      text-decoration-color: black;
+      transition:all 0.3s ease;
+      height: fit-content;
+      display: inline-block;
+      width: -moz-fit-content;
+    width: fit-content;
+    }
+    #root .msg{
+      /* top: 10%; */
+      height: fit-content;
+      position: relative;
+      width:auto;
+      margin-left: 20vw;
+      padding-top: 2em
+      /* float:right */
+    }
+  #root  .welcomemsg h1:hover{
+      -webkit-transform: scaleY(0.7);
+          -ms-transform: scaleY(0.7);
+          transform: scaleY(0.7);
+    }
+    #root .elmsg{
+      padding:0;
+      margin: 0;
+      height: fit-content;
+      position: relative;
+    /* width: 30%; */
+    }
+
+    #frame{
+      padding:0;
+      margin: 0;
+      width:auto;
+      float:left;
+      /* height: fit-content; */
+    /* width: 30%; */
+    }
   }
 
-  #frame{
-    padding:0;
-    margin: 0;
-    /* height: fit-content; */
-  /* width: 30%; */
-  }
-  #root .abt{
-    /* border: 2px solid black; */
-    float:right;
-    height: 100%;
-    width:77%;
-    margin-right: 3%;
-  }
 
   #socialicon:hover{
     transform: scale(1.5) rotateZ(1turn);
