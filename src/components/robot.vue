@@ -118,20 +118,32 @@ export default {
 }
 </script>
 
-<style lang="css" scoped>
+<style lang="css" scoped media="screen">
 @keyframes hand {
 	to { transform: rotateZ(200deg); }
 }
 @keyframes eye {
 	to { transform: rotateX(20deg); }
 }
-.robot{
-  position: absolute;
-  z-index: 50;
-  bottom:0%;
-  left:0%
-  /* left:10%; */
-
+@media screen and (min-width: 900px) {
+  .robot{
+    position: absolute;
+    z-index: 50;
+    bottom:0%;
+    left:0%;
+    transform: scale(.8);
+    /* left:10%; */
+  }
+}
+@media screen and (max-width: 900px) {
+  .robot{
+    position: absolute;
+    z-index: 50;
+    bottom:0%;
+    left:0%;
+    transform: scale(.55);
+    /* left:10%; */
+  }
 }
 .hand{
   transform-origin: 100% center;

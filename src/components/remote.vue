@@ -50,14 +50,28 @@ export default {
 }
 </script>
 
-<style lang="css" scoped>
-.remote{
-  position: absolute;
-  z-index: 50;
-  bottom:0%;
-  right:0%
-  /* left:10%; */
+<style lang="css" scoped media="screen">
+@media screen and (min-width: 900px) {
+  .remote{
+    position: absolute;
+    z-index: 50;
+    bottom:0%;
+    right:0%;
+    transform: scale(.8);
+    /* left:10%; */
+  }
 }
+@media screen and (max-width: 900px) {
+  .remote{
+    position: absolute;
+    z-index: 50;
+    bottom:0%;
+    right:0%;
+    transform: scale(.5);
+    /* left:10%; */
+  }
+}
+
 #buttonelec{
   cursor: grab;
 }

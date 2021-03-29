@@ -20,7 +20,7 @@
         <!-- <div class="elmsg"><h1>K</h1><h1>H</h1><h1>A</h1><h1>N</h1><h1>D</h1><h1>E</h1><h1>L</h1><h1>W</h1><h1>A</h1><h1>L</h1></div> -->
 
         <a href="https://www.linkedin.com/in/aakash-khandelwal-a700ab172/" target="_blank" >
-          <img id="socialicon" style="margin-right:.5em;margin-top:1em;transition:all 0.3s ease;" align="left" alt="Aakash Khandelwal LinkedIn" width="30em" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
+          <img id="socialicon" style="margin-right:.5em;margin-top:1em;transition:all 0.3s ease" align="left" alt="Aakash Khandelwal LinkedIn" width="30em" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
         </a>
         <a href="https://github.com/aakash1234567" target="_blank">
           <img id="socialicon" style="margin-right:.5em;margin-top:1em;transition:all 0.3s ease;" align="left" alt="Aakash's Github" width="30em" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
@@ -31,6 +31,60 @@
         <a href="https://www.hackerrank.com/Aakashkhandelwa1" target="_blank">
           <img id="socialicon" style="margin-right:.5em;margin-top:1em;transition:all 0.3s ease;" align="left" alt="Aakash's HackerRank" width="30em" src="https://cdn.jsdelivr.net/npm/simple-icons@3.12.1/icons/hackerrank.svg" />
         </a>
+        </div>
+      <div class="techstack">
+        <div class="tech1">
+          <div class="flip-card-front">
+          </div>
+          <div class="flip-card-back">
+              <img  style="" align="center" alt="Aakash's Codechef" width="100%" height="100%" src="../assets/logo/python.png" />
+          </div>
+          <div class="tech5">
+            <div class="flip-card-front">
+              <img  style="transform: rotate(180deg);" align="center" alt="Aakash's Codechef" width="100%" height="100%" src="../assets/logo/cpp.png" />
+            </div>
+            <div class="flip-card-back">
+
+            </div>
+          </div>
+          <div class="tech2">
+            <div class="flip-card-front">
+              <img  style="" align="center" alt="Aakash's Codechef" width="100%" height="100%" src="../assets/logo/C.png" />
+            </div>
+            <div class="flip-card-back">
+            </div>
+            <div class="tech3">
+              <div class="flip-card-front">
+              </div>
+              <div class="flip-card-back">
+                <img  style="" align="center" alt="Aakash's Codechef" width="100%" height="100%" src="../assets/logo/js.png" />
+              </div>
+              <div class="tech6">
+                <div class="flip-card-front">
+                  <img  style="transform: rotate(180deg);" align="center" alt="Aakash's Codechef" width="100%" height="100%" src="../assets/logo/html.png" />
+                </div>
+                <div class="flip-card-back">
+                </div>
+              </div>
+              <div class="tech7">
+                <div class="flip-card-front" >
+                  <img  style="" align="center" alt="Aakash's Codechef" width="100%" height="100%" src="../assets/logo/mysql.png" />
+                </div>
+                <div class="flip-card-back">
+                </div>
+              </div>
+            </div>
+            <div class="tech4">
+              <div class="flip-card-front">
+                <img  style="" align="center" alt="Aakash's Codechef" width="100%" height="100%" src="../assets/logo/tech.png" />
+
+              </div>
+              <div class="flip-card-back">
+                <img  style="transform: rotate(180deg);" align="center" alt="Aakash's Codechef" width="100%" height="100%" src="../assets/logo/css.png" />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
   </div>
   <div class="abt">
@@ -120,6 +174,12 @@ export default {
       /* height: fit-content; */
     /* width: 30%; */
     }
+    #root .techstack{
+      perspective: 1000px;
+      position: inherit;
+      margin-left:1em;
+      margin-top:4em;
+    }
   }
   @media screen and (max-width: 900px) {
 
@@ -195,6 +255,11 @@ export default {
       /* height: fit-content; */
     /* width: 30%; */
     }
+    #root .techstack{
+      perspective: 1000px;
+      position: inherit;
+      margin: inherit;
+    }
   }
 
 
@@ -202,4 +267,130 @@ export default {
     transform: scale(1.5) rotateZ(1turn);
   }
 
+
+
+
+
+
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+  .flip-card-front {
+    background-color: #202020;
+  }
+
+  .flip-card-back {
+    background-color: #202020;
+    transform: rotateY(180deg);
+  }
+
+  #root .tech1{
+    position: relative;
+    height: 2.5em;
+    width:2.5em;
+
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transform-origin: center right;
+  }
+  #root .techstack:hover .tech1{
+    transform: rotateY(180deg);
+    transform-origin: center right;
+  }
+  #root .tech2{
+    position: relative;
+    height: 2.5em;
+    width: 2.5em;
+
+    transition: transform 0.6s;
+    transition-delay: .3s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transform-origin: center left;
+  }
+  #root .techstack:hover .tech2{
+    transform: rotateY(180deg);
+    transform-origin: center left;
+  }
+  #root .tech3{
+    position: absolute;
+    height: 2.5em;
+    width: 2.5em;
+    transition-delay: .5s;
+
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transform-origin: center right;
+  }
+  #root .techstack:hover .tech3{
+    transform: rotateY(180deg);
+    transform-origin: center right;
+  }
+  #root .tech4{
+    position: absolute;
+    height: 2.5em;
+    width: 2.5em;
+
+    transition: transform 0.6s;
+    transition-delay: .7s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transform-origin: center top;
+  }
+  #root .techstack:hover .tech4{
+    transform: rotateX(180deg);
+    transform-origin: center top;
+  }
+  #root .tech5{
+    position: absolute;
+    height: 2.5em;
+    width: 2.5em;
+
+    transition: transform 0.6s;
+    transition-delay: .5s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transform-origin: bottom;
+  }
+  #root .techstack:hover .tech5{
+    transform: rotateX(-180deg);
+    transform-origin: bottom;
+  }
+  #root .tech6{
+    position: absolute;
+    height: 2.5em;
+    width: 2.5em;
+
+    transition: transform 0.6s;
+    transition-delay: .8s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transform-origin: bottom;
+  }
+  #root .techstack:hover .tech6{
+    transform: rotateX(-180deg);
+    transform-origin: bottom;
+  }
+  #root .tech7{
+    position: absolute;
+    height: 2.5em;
+    width: 2.5em;
+
+    transition: transform 0.6s;
+    transition-delay: .8s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transform-origin:center left;
+  }
+  #root .techstack:hover .tech7{
+    transform: rotateY(180deg);
+    transform-origin:center left;
+  }
 </style>
