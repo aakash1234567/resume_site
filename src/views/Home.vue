@@ -76,7 +76,7 @@
             </div>
             <div class="tech4">
               <div class="flip-card-front">
-                <img  style="" align="center" alt="Aakash's Codechef" width="100%" height="100%" src="../assets/logo/tech.png" />
+                <img  style="background:white" align="center" alt="Aakash's Codechef" width="100%" height="100%" src="../assets/logo/tech.png" />
 
               </div>
               <div class="flip-card-back">
@@ -108,11 +108,9 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
 
   @media screen and (min-width: 900px) {
-      @media screen and (min-width: 900px) {
       #root h1 {
           font-size: 5.2vmin;
         }
-      }
     #root  .home{
         position: absolute;
         padding-left: 6em;
@@ -124,7 +122,7 @@ export default {
       /* border:2px solid black; */
       /* height:15em;
       width:24em;*/
-      position: absolute;
+      position: fixed;
       width: 16%;
       float:left;
       margin-top: 2%;
